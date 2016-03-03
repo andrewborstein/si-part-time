@@ -1,0 +1,283 @@
+/* GLOBAL STYLES */
+/* * {
+	border: red 1px dashed;
+} */
+
+h1,
+h2,
+h3, 
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration:none;
+	font-family: 'Lato', sans-serif;
+}
+
+.cursive {
+	font-family: 'Satisfy', cursive;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.float-right {
+	float: right;
+}
+
+.v-align-outer {
+  display: table;
+  width: 100%;
+}
+.v-align-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+
+hr {
+	max-width: 50px;
+	color: white;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.shadow:active {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+/* NAVBAR */
+
+header {
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+
+h1 a{
+	font-size: 20px;
+	margin-left: 1%;
+	margin-top: 0;
+	color: white;
+}
+
+header span {
+	font-size: 30px;
+}
+
+nav {
+	margin-right: 2%;
+}
+
+nav a {
+	padding:10px 20px 10px 20px;
+	border-radius:5px;
+	margin: 0;
+	font-size:15px;
+	color: white;
+}
+
+nav a:hover {
+	color: rgb(141,4,95);
+}
+
+/* HERO */
+
+section.hero {
+	width: 100%;
+	height:100vh;
+	background-image:url(../img/hero2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top:0;
+	background-position: top center;
+}
+
+div.hero {
+	text-align: center;
+	color: white;
+}
+
+.hero h2 {
+	font-size: 100px;
+	margin: 0;
+	margin-top: 20%;
+}
+
+.hero p {
+	width: 500px;
+	font-size: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hero a {
+	width: 10%;
+	padding: 10px;
+	margin: 0;
+	border-radius: 15px;
+	background-color: rgb(141,4,95);
+	color: black;
+	font-size: 15px;
+	color: white;
+}
+
+/* ABOUT */
+#about {
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(4,194,216);
+	color: white;
+	margin: 0;
+}
+
+#about h3 {
+	font-size:25px;
+	color: rgb(0,85,114);
+}
+
+.about {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+.second {
+	margin-left: 10%;
+}
+
+p.quote {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+.button {
+	color: white;
+	background-color: rgb(0,85,114);
+	padding:10px;
+	border-radius: 10px;
+}
+
+.client {
+	font-size: 15px;
+	margin-top:-5px;
+	margin-bottom:10px;
+	color: rgb(0,85,114);
+}
+
+/* SKILLS */ 
+#skills {
+	padding-bottom: 5%;
+	padding-top: 43px;
+}
+
+#skills h2 {
+	margin: 0;
+	font-size: 40px;
+	color: rgb(193,1,142)
+}
+#skills h3{
+	font-size: 30px;
+}
+
+#skills i {
+	color: rgb(193,1,142);
+	font-size: 50px;
+}
+
+#skills p{
+	color: rgb(31,32,37)
+}
+
+#skills a{
+	width: 10%;
+	padding: 10px;
+	margin: 0;
+	margin-top: 20%;
+	border-radius: 15px;
+	background-color: rgb(193,1,142);
+	color: black;
+	font-size: 15px;
+	color: white;
+}
+
+.wedding {
+	margin-bottom: 20%;
+}
+
+/* PORTFOLIO */ 
+
+#portfolio {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(4,194,216);
+}
+
+.gallery div {
+	padding: 0;
+	margin: 0;
+}
+
+.gallery h3 {
+	color: rgb(0,173,191);
+	font-size: 200%;
+}
+
+.gallery img {
+	width: 100%;
+}
+.portfolio-content {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-box p{
+	font-size: 200%;
+}
+
+
+.portfolio-box {
+	display: block;
+	position: relative;
+	color: transparent;
+}
+
+.portfolio-box:hover {
+	color: white;
+}
+
+
+/* CONTACT */
+#contact {
+	margin: 0;
+	padding: 0;
+}
+
+#contact i {
+	color: rgb(193,1,142);
+}
+
+#contact h3 {
+	font-size: 200%;
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,104 @@
+.Navbar {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#7575a3;
+	top:0;
+	width:100%;
+	position:fixed;
+	left:0;
+}
+
+body {
+	height:100%;
+}
+
+
+header li {
+	float:right;
+	border-left:1px solid blue;
+
+}
+
+header li:first-child {
+	border-left:none;
+}
+
+a {
+	display:block;
+	padding: 13px;
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	font-family: 'Oswald'
+}
+
+@media (max-width: 320px) {
+	a {
+	display:block;
+	padding: 13px;
+	text-decoration: none;
+	color:blue;
+	text-align: center;
+	font-family: 'Oswald';
+    }
+}
+
+a:hover {
+	color:#80bfff;
+}
+
+.Landing {
+	background-image: url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/1175323_444218465691669_554736810_n.jpg?oh=d36f1ed608378fa829255b769273d453&oe=575E6404");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:100%;
+	margin-top: 0;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-position: center;
+}
+
+h1 {
+	margin:auto;
+	text-align:center;
+	margin-top: 40px;
+	font-size: 40px;
+	font-family:'Oswald', sans-serif;
+	
+}
+
+/* h3 {
+	margin:auto;
+	text-align: center;
+	margin-top: 15px;
+	font-size:25px;
+	font-family:cursive;
+} */
+
+.name {
+	float:left;
+	font-size: 27px;
+	color:black;
+	margin-top:7px;
+	margin-left:12px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.Footer {
+	background-color: #7575a3;
+	width:100%;
+	padding:13px;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	word-spacing: .35px;
+	display:block;
+	margin-bottom: 0;
+	margin-top: 0;
+
+}
+
+span {
+	color:#ffb3b3;
+}

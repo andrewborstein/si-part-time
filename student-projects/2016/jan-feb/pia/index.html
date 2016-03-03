@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title> James Bean | Composer </title>
+    	<meta name="description" content="James Bean is an American composer studying at Harvard University.">
+		<!-- Normalize CSS-->
+  	  	<link rel="cssnormalize" type"text/css" href="css/cssnormalize.css">
+  	  	<link rel="stylesheet" type="text/css" href="http://normalize-css.googlecode.com/svn/trunk/normalize.css">
+  	  	 <link href='https://fonts.googleapis.com/css?family=Lato:400,700,700italic,100' rel='stylesheet' type='text/css'> 
+  	  	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  		<!-- My Styles CSS-->
+    	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    	<!-- Grid CSS (paste all your grid-related CSS here)  -->
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+  	</head>
+
+<body>
+<!-- Nav bar-->
+	<header> 
+	<div id="name">
+	<a href class="name">James Bean</a>
+	<!-- <a href="#">James Bean</a>	-->
+	</div> 
+		<nav>
+			<ul>
+				<li><a href ="#Bio" data-scroll> About </a></li>
+				<li><a href ="#DNM" data-scroll> DNM </a></li>
+				<li><a href ="#Works" data-scroll> Works </a></li>
+				<li><a href ="#Concerts" data-scroll> Concerts </a></li>
+				<li><a href ="#Contact" data-scroll> Contact </a></li>
+			</ul>
+		</nav>
+	</header>
+
+<!--landing page -->
+
+	<section class="landing v-align-outer">
+      <div class="landing-content v-align-inner">
+			<h1>James Bean</h1>
+			<h2>Composer</h2>
+		</div>
+	</section>
+
+<!-- About -->
+
+	<section id="Bio">
+		<div id="column two-thirds">
+				<p class="bio">
+				I currently study composition with Chaya Czernowin and Hans Tutschku at Harvard University. In the past, I've had the privilege to study with Rand Steiger at UC San Diego, and Robert Kyr at the University of Oregon.
+				</p>
+				<p class="bio">
+				I am momentarily devoted to authoring an automated music notation software called DNM (dynamic notation for music) for iPads, which allows performers to interact dynamically with musical scores throughout their learning and performance processes.
+				</p>
+			</div>
+	</section>
+
+<!-- DNM -->
+
+	<section id="DNM">
+		<div class="DNM"> 
+			<h4> DNM </h4>
+			<p class="dnm-text">
+       		DNM (dynamic notation for music) is an automated music notation software written for iOS tablet devices in the Swift language. DNM is a performance-centric notation environment with many tools for performers built into the score. These tools, for both individual- and group-rehearsal contexts, enable a multi-dimensional understanding of the complex musics written today. This enhanced-dimensionality of understanding allows for more informed interpretations of the wide range of musics of our time, all while allowing the performers to make their own process increasingly efficient and purposeful.
+			</p>
+			<div class="iframe">
+			<iframe src="https://player.vimeo.com/video/115529241" width="500" height="373" frameborder="0" align="middle"webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			<h4> Background </h4>
+			<p class="dnm-text">
+			There are many excellent tools available today that automatically generate musical scores, but the focus of these tools is often towards the compositional and/or theoretical end of the musical process. DNM focuses its efforts on the performance end of the process.
+			
+			Many performers have chosen to read music from tablet computing devices because doing so reduces the many cumbersome logistical realities of paper scores. This paradigm of music representation is a step in the direction of convenience, but it has not yet tapped into the potential interactive properties of tablet computing. Until now, tablets have acted merely as traditional sheet music that need not be turned by hand.
+			</p>
+			<h4> What it Does </h4>
+			<p class="dnm-text">
+			DNM on a tablet device allows performers to interact with the musical notation. Many re-notational strategies that are already employed by today's performers (color-coding of important information, contextually-appropriate cues, conducting markings, etc.) are generated automatically based on the material present, and can be shown, hidden, or customized at any time. In addition, intelligent visual and aural metronomes will aid the pragmatic and conceptual foundation from which the performers learn and rehearse.
+
+			DNM leverages the advancements that tablet computing brings to the fluidity of human-computer interactivity to enhance performers' experience within the rehearsing process.
+			</p>
+		</div>
+	</section>
+
+<!-- Works -->
+
+	<section id="Works">
+		<div class="iframe">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/BO_T1t6vIzg" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</section>
+
+<!-- Upcoming Concerts -->
+
+	<section id="Concerts">
+	  	<div class="column one-third">
+ 		<img src="http://placecorgi.com/260/180" />
+  		</div>
+ <div class="column one-third">
+	<img src="http://placecorgi.com/260/180" />
+	</div>
+  <div class="row">
+    <div class="column one-third">
+	<img src="http://placecorgi.com/260/180" />
+    </div>
+    
+
+<!--Contact Me -->
+	
+	<section id="contact">
+		<div>
+			<p class="contact">
+			jbean46@gmail.com
+			</p>
+		</div>
+	</section>
+
+
+ <!--JS SCRIPTS -->
+
+<script src="smooth-scroll.js"></script>
+<script>
+    smoothScroll.init({
+    	selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+	    selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+	    speed: 500, // Integer. How fast to complete the scroll in milliseconds
+	    easing: 'easeInOutQuad', // Easing pattern to use
+	    offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+	    updateURL: true, // Boolean. If true, update the URL hash on scroll
+	    callback: function ( anchor, toggle ) {} // Function to run after scrolling
+    });
+</script>
+</body>
+</html>

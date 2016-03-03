@@ -1,0 +1,146 @@
+/**{
+	background: rgba(0,0,0,.1);
+}*/
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+.navbar-fixed-bottom {
+    background-color: black;
+    border-color: black;
+
+}
+
+
+
+
+div.logo {
+	float: left;
+  position: fixed;
+  top: 1em;
+  right: 1em;
+}
+
+
+img.logo {
+	width: 16%;
+	margin: 30px;
+	display: inline;
+	float: left;
+}
+
+li >  a {
+	color: white;
+}
+
+div > a {
+	color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > li > a {padding-top:11px !important; padding-bottom:12px !important;}
+.navbar {min-height:32px !important}
+
+nav .hireme {
+  background-color: black;
+  width: 165px;
+  float: right;
+}
+
+div .hireme {
+  text-align: right;
+  font-family: helvetica;
+  font-size: 23px;
+  height: 50px;
+  padding-top: 7px;
+  padding-right: 40px;
+
+}
+
+div .hireme a {
+  text-decoration: none;
+}
+
+div .hireme a:hover {
+  color: pink;
+  font-family: helvetica;
+}
+
+div .hireme a:visited {
+  color: none;
+  font-family: helvetica;
+  font-size: 23px;
+}
+
+a.home-diff {
+  color: pink;
+}
+
+
+section.about {
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+
+p.about {
+  font-family: helvetica;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: helvetica;
+  font-weight: none;
+  font-size: 50px;
+  color: black;
+}
+
+div.asian {
+  text-align: center;
+}
+
+.carousel img {
+  width: 100%;
+}

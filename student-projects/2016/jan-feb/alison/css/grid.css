@@ -1,0 +1,178 @@
+
+/*
+ * Keep my container the same size when I add a border or padding.
+ * Push my content inwards, as opposed to expanding my container outwards.
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  /*max-width: 1140px;  Main width of your website! Change at your leisure, or use the .container-fluid class instead. */
+/*  padding: 2em 2em 0 2em;*/
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  max-width: none;
+}
+
+/*
+ * We wrap our columns inside rows to prevent other elements from stacking next to them.
+ * Clearing issues are fixed using the popular "clearfix hack".
+ * We add negative margins to make sure nested rows take up the full-width of their containers.
+ */
+.row {
+  margin-right: -1em;
+  margin-left: -1em;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+/*
+ * Use float to line up our grid elements next to each other.
+ * By default (i.e. mobile devices), make all columns 100% wide with some padding and margin.
+ */
+.column {
+  float: left;
+  /*padding: 1em;*/
+  width: 100%;
+  text-align: center;
+}
+
+
+/*
+ * Enable grid without padding between each column by adding '.no-padding' to a '.container' element.
+ */
+/*.no-padding .column {
+  padding-right: 0;
+  padding-left: 0;
+}*/
+.no-padding {
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+
+/*
+ * Enable grid without margin below each column by adding '.no-margin' to a '.container' element.
+*/
+.no-margin .column {
+  margin-bottom: 0;
+}
+.no-padding.no-margin {
+  padding-bottom: 2em;
+}
+
+/*
+ * On all screens 769px and larger (landscape tablets + desktops), enable a grid layout with different width columns.
+ */
+
+   /*
+   * Offset a grid element, by (virutally) creating an empty one.
+   */
+
+
+/*
+ * Add .flow-opposite to columns where you want a column on the right on desktop to display first on mobile.
+ */
+.column.flow-opposite { float: right; }
+
+
+/* IMG styling */
+/*
+.container img{
+	max-width: 100%;
+	max-height: 250px;
+	border-radius: 15px;
+}
+*/
+
+.gallery .image {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.sunset{
+  background-image: url('../img/halongbay2.jpg');
+}
+
+
+.village{
+  background-image: url('../img/dunes2.jpg');
+}
+
+
+.bolivia{
+  background-image: url('../img/bolivia.jpg');
+}
+
+
+.flowers{
+  background-image: url('../img/hanoi7.jpg');
+}
+
+
+.iguazu{
+  background-image: url('../img/iguazu.jpg');
+}
+
+
+.pagoda{
+  background-image: url('../img/hanoi5.jpg');
+}
+
+
+.lake{
+  background-image: url('../img/nihn3.jpg');
+}
+
+
+.machu{
+  background-image: url('../img/machupicchu.jpg');
+}
+
+
+.dc{
+  background-image: url('../img/monument.jpg');
+}
+
+@media (min-width: 769px) {
+
+  .column.three-fourths { width: 75%; }
+  .column.two-thirds { width: 66.66%; }
+  .column.one-half { width: 50%; }
+  .column.one-third { width: 33.33%; }
+  .column.one-fourth { width: 25%; }
+  .column.one-sixth { width: 16.66%; }
+  .column.offset-three-fourths { margin-left: 75%; }
+  .column.offset-two-thirds { margin-left: 66.66%; }
+  .column.offset-one-half { margin-left: 50%; }
+  .column.offset-one-third { margin-left: 33.33%; }
+  .column.offset-one-fourth { margin-left: 25%; }
+  .column.offset-one-sixth { margin-left: 16.66%; }
+}
+
+/*
+ * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
+ */
+/*@media (min-width: 769px) and (max-width: 1024px) {
+   You custom styles here
+  body:before { content: "Show me for landscape oriented iPads only."; }*/
+}
+/*@media (max-width: 320px) {*/
+  /* You custom styles here */
+/*  body:before { content: "Show me for portrait oriented iPhone 4 / 5 only."; }
+}*/
+

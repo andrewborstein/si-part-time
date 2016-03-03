@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*
+ * A container holds all elements and controls the page’s maximum width.
+ * Using a container will make designing for responsive easier!
+ */
+.container {
+  max-width: 1140px; /* Main width of your website! Change at your leisure, or use the .container-fluid class instead. */
+  padding: 2em 2em 0 2em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  max-width: none;
+}
+/*
+ * Use float to line up our grid elements next to each other.
+ * By default (i.e. mobile devices), make all columns 100% wide with some padding and margin.
+ */
+.column {
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 2em;
+  width: 100%
+}
+
+
+
+/*
+ * On all screens 769px and larger (landscape tablets + desktops), enable a grid layout with different width columns.
+ */
+@media (min-width: 769px) {
+
+  .column.three-fourths { width: 75%; }
+  .column.two-thirds { width: 66.66%; }
+  .column.one-half { width: 50%; }
+  .column.one-third { width: 33.33%; }
+  .column.one-fourth { width: 25%; }
+  .column.one-sixth { width: 16.66%; }
+
+  /*
+   * Offset a grid element, by (virutally) creating an empty one.
+   */
+  .column.offset-three-fourths { margin-left: 75%; }
+  .column.offset-two-thirds { margin-left: 66.66%; }
+  .column.offset-one-half { margin-left: 50%; }
+  .column.offset-one-third { margin-left: 33.33%; }
+  .column.offset-one-fourth { margin-left: 25%; }
+  .column.offset-one-sixth { margin-left: 16.66%; }
+
+  
+}
+
+/*
+ * We wrap our columns inside rows to prevent other elements from stacking next to them.
+ * Clearing issues are fixed using the popular "clearfix hack".
+ * We add negative margins to make sure nested rows take up the full-width of their containers.
+ */
+.row {
+  margin-right: -1em;
+  margin-left: -1em;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}

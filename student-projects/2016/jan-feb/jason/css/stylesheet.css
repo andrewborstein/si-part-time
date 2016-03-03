@@ -1,0 +1,82 @@
+/** {*/
+/*  background: rgba(0, 0, 0, 0.1);*/
+/*  border: blue 1px dashed;*/
+
+* {
+  font-family: "Merriweather";
+}
+
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+/* Header Section */
+header {
+  position: fixed;
+  padding: 10px;
+  background: #050300;
+  width: 100%;
+  box-sizing: border-box;
+}
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 20;
+  top: 0;
+  margin: 10px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  display: inline-block;
+  margin-right: 5px;
+}
+/* landing */
+.landing {
+
+}
+.bigtypewriter {
+    background: url(../img/bg.jpg) center no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: bottom right;
+
+
+}
+
+.thankyou {
+	margin:auto;
+	text-align: center;
+	display: inline-block;
+	background: #CCC;
+	max-width: 100px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* content */
+}
+h3 {
+  margin: 20px;
+}
+p {
+  margin: 30px;
+}
+.3col {
+    padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}

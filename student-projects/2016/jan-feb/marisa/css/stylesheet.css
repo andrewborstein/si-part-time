@@ -1,0 +1,222 @@
+/*.header {
+	background-color: #7DCD85;
+	height: 200px;
+	width: 100%;
+	position: fixed;
+}
+
+
+nav{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #BAC7BE;
+    position: fixed;
+}
+
+h1 {
+	font-family: 'Lato';
+	font-size: 36px;
+	text-align: center;
+	color: #778472;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: 'Lato';
+	font-size: 20px;
+	text-align: center;
+	color: #778472;
+}
+
+body{
+	background-color: #C2E1C2;
+}
+
+
+
+
+.column-sm-4{
+	font-family: 'Lato';
+	font-size: 20px;
+	text-align: center;
+}*/
+
+
+/**{
+	background: rgba(0, 0, 0, 0.1);
+}
+*/
+
+*{
+	text-decoration: none;
+	color: #778472;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	/*background: #C2E1C2;*/
+	font-family: 'Lora', sans-serif;
+}
+/*Header Section*/
+
+.navbar, .navbar-inverse {
+	position: relative;
+	padding: 10px 0 5px 0;
+	background: white;
+	width: 100%;
+	margin-bottom: 0;
+	border: none;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #778472;
+	background-color: #B1DDB1;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #BAC7BE;
+}
+
+header ul{
+	margin: 0;
+}
+
+.navbar li{
+	display: inline-block;
+	color: #778472;
+	padding: 0 15px 0 15px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #778472;
+	padding-left: 10px;
+}
+
+.navbar a:hover {
+	color: #BAC7BE;
+}
+
+/*Landing*/
+
+.landing-inner {
+	background: url('../images/nola.jpg');
+	background-size: cover;
+	text-align: center;
+	min-height: 600px;
+	margin: 0;
+}
+
+.landing {
+	padding: 200px 0 200px 0;
+	margin: 0;
+	color: #C2E1C2;
+}
+
+.landing h1 {
+	font-family: 'Lora';
+	font-weight: 700;
+	font-size: 58;
+	color: #B1DDB1;
+}
+
+.landing h2 {
+	font-family: 'Lora'
+	font-weight: 700;
+	font-style: italic;
+	color: #B1DDB1;
+}
+
+.landing h3 {
+	font-family: 'Lora';
+	font-weight: 700;
+	color: #B1DDB1;
+	text-decoration: none;
+}
+
+div.landing h3:hover {
+	color: #BAC7BE;
+}
+
+/*Learn more*/
+
+#learn a {
+	display: inline-block;
+	/*padding: 30px 60px;*/
+	/*border: 1px solid #ccc;*/
+	/*margin: 10px;*/
+	/*border-radius: 10px;*/
+	background: white;
+	/*box-shadow: 2px 4px 10px rgba(0,0,0,0.2);*/
+	text-decoration: none;
+	color: #778472;
+	text-align: center;
+}
+
+#learn a:hover {
+	color: #BAC7BE;
+}
+
+.material-icons.md-48 {
+	font-size: 70px;
+	margin: 0 auto;
+	width: 70px;
+}
+
+#learn h2 {
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lato';
+}
+
+div.col-lg-3 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#learn.panel {
+	border: none;
+	border-radius: 0;
+	margin-top: 20px;
+}
+
+/*Content*/
+
+div.featurette img {
+	max-width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	display: block;
+	vertical-align: middle;
+	border: 0;
+	background-position: center;
+}
+
+div.featurette h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Lora';
+	font-weight: 700;
+}
+
+div.featurette a {
+	color: #B1DDB1;
+}
+
+/*Footer*/
+
+footer .pull-right a {
+	text-decoration: none;
+	color: #778472;
+	font-family: 'Lato';
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	color: #B1DDB1;
+}
