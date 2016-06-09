@@ -1,0 +1,270 @@
+/*GLOBAL*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	position: relative;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*Nav Bar Styles and Content*/
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+
+
+nav {
+    display: inline-block;
+    text-align: right;
+}
+
+.nav-menu a {
+    padding: 10px;
+}
+
+/*HEADER*/
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 27;
+}
+
+header li {
+    display: inline-block;
+}
+
+header {
+    position: relative;
+    border-bottom: 1px solid black;
+    text-align: right;
+    background-color: white;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Link-styles with hover darker red*/
+
+a {
+    text-decoration: none;
+    color: #660000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #990000;
+}
+
+
+/*First Section Styles*/
+
+section.first {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/materialist-tarot-dynamic-photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section.first .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+    color: #CC0000; 
+}
+
+
+section.first .header-content .header-content-inner h1 {
+    font-family:'Montserrat';
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size:80;
+    text-shadow:
+    -1px -1px 0 #1A0000,
+    1px -1px 0 #1A0000,
+    -1px 1px 0 #1A0000,
+    1px 1px 0 #1A0000,
+    -2px -2px 0 #1A0000,
+    2px -2px 0 #1A0000,
+    -2px 2px 0 #1A0000,
+    2px 2px 0 #1A0000;  
+}
+
+section .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+section.first .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size:70;
+    font-weight: 300;
+    text-shadow:
+    -1px -1px 0 #1A0000,
+    1px -1px 0 #1A0000,
+    -1px 1px 0 #1A0000,
+    1px 1px 0 #1A0000;
+}
+
+/*First Section Adjust for different Browser Sizes*/
+
+@media(min-width:768px) {
+    section.first {
+        min-height: 100%;
+    }
+    section.first .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    section.first .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    section.first .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 40;
+    }
+}
+
+@media(max-width: 769px) {
+    section.first .header-content .header-content-inner h1 {
+        font-family:'Montserrat';
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size:40;
+        text-shadow:
+        -1px -1px 0 #1A0000,
+        1px -1px 0 #1A0000,
+        -1px 1px 0 #1A0000,
+        1px 1px 0 #1A0000,
+        -2px -2px 0 #1A0000,
+        2px -2px 0 #1A0000,
+        -2px 2px 0 #1A0000,
+        2px 2px 0 #1A0000;  
+    }
+
+    section .header-content .header-content-inner hr {
+        margin: 30px auto;
+    }
+
+    section.first .header-content .header-content-inner p {
+        margin-bottom: 50px;
+        font-size:30;
+        font-weight: 300;
+        text-shadow:
+        -1px -1px 0 #1A0000,
+        1px -1px 0 #1A0000,
+        -1px 1px 0 #1A0000,
+        1px 1px 0 #1A0000;
+    }    
+}
+
+
+
+i.fa{
+	font-size:50px;
+	color:#000099;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+/*Background Color for "About" Section and "Philosophy Section*/
+
+.bg-primary, .bg-primary2 {
+    background-color: #660000;
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+section {
+    padding: 100px 0;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+/*Example Gallery Styles*/
+
+#example-gallery {
+	background-color: #666;
+}
+
+.project-name {
+	color: white;
+}
+
+.section-heading {
+	color: white;
+	font-family:'Candal';
+}
+
+/*Instructions Section Styles*/
+
+section.last {
+    background-image: url("../img/tarot-instructions2.jpg");
+    background-size: cover;
+	background-position: 0px 0px, center;
+}
+
+@media(min-width:768px) {
+    section.last {
+        min-height: 100%;
+    }
+}
+
+
+/*
+ * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
+ */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* You custom styles here */
+  body:before { content: "Show me for landscape oriented iPads only."; }
+}
+@media (max-width: 320px) {
+  /* You custom styles here */
+  body:before { content: "Show me for portrait oriented iPhone 4 / 5 only."; }
+}
+
+
+

@@ -1,0 +1,222 @@
+/*
+* -------------------------
+* GLOBAL STYLES
+* -------------------------
+*/
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i.fa {
+  font-size: 64px;
+  color: #8B0000;
+}
+
+
+/*
+* -------------------------
+* HEADER STYLES
+* -------------------------
+*/
+header {
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  min-height: auto;
+  border-bottom: 1px solid #eeeeee;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  line-height: 50px;
+  z-index: 1;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+header li a {
+  color: #EEAD1A;
+  padding: 0 10px;
+}
+
+header li a:hover {
+  color: #222;
+}
+
+.site-title {
+    position: absolute;
+    margin: auto;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    color: #DB3E79;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+  display: inline-block;
+  min-height: 50px;
+  vertical-align: middle;
+}
+
+
+
+/*
+* -------------------------
+* LANDING STYLES
+* -------------------------
+*/
+.landing {
+  background: url('../img/cupcakes.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+.landing-container {
+  /* Here be dragons */
+}
+
+.landing-content {
+  max-width: 350px;
+  margin: auto;
+  padding: 5px 0px 15px 0px;
+  border-radius: 25px;
+  background-color: fff;
+  opacity: 0.9;
+}
+
+.landing-content h1, .landing-content h2 {
+  color: #DB3E79;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+}
+
+.landing-content p {
+  color: #222;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.vertical-align-parent {
+  display: table;
+  width: 100%;
+}
+
+.vertical-align-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*
+* -------------------------
+* PRODUCT/MENU STYLES
+* -------------------------
+*/
+.menu {
+  background: #fff;
+  color: #222;
+  text-align: center;
+  width: 100%;
+}
+
+.menu-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Lobster', cursive;
+  color: #DB3E79;
+}
+
+.menu-product {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.menu-price {
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/*
+* -------------------------
+* GALLERY STYLES
+* -------------------------
+*/
+.gallery {
+  background: #222;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Lobster', cursive;
+  color: #EEAD1A;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*
+* -------------------------
+* PRODUCT/MENU STYLES
+* -------------------------
+*/
+.contact {
+  background: #fff;
+  color: #222;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Lobster', cursive;
+  color: #DB3E79;
+}
+
+.contact i {
+  color: #222;
+  margin-bottom: 0;
+}
+
+.contact a {
+  color: #EEAD1A;
+  padding: 0 10px;
+}
+
+.contact a:hover {
+  color: 222;
+}

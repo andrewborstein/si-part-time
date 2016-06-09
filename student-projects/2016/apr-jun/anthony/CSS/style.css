@@ -1,0 +1,180 @@
+/*
+ * --------------------
+ * DEBUGGING
+ * --------------------
+ */
+// * {
+//   background: rgba(0,0,0,0.1);
+//   border: 1px solid rgba(0,0,0,0.15);
+// }
+
+/*
+ * --------------------
+ * GLOBAL
+ * --------------------
+ */
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;';
+
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+a:hover{
+  
+  color: rgba(97,73,67,0.2);
+}
+
+
+div a{
+  color: white;
+}
+
+/*
+ * --------------------
+ * GLOBAL
+ * --------------------
+ */
+header {
+  text-align: right;
+  position: relative;
+  border-bottom: 1px solid #DDDDDD;
+  background: white;
+  
+}
+.site-title {
+  position: absolute;
+  max-width: 100%;
+  left: 10px;
+  top: 0;
+  color: blue;
+  line-height: 42px;
+  font-family: "Vollkorn", "sans-serif";
+}
+nav {
+    display: inline-block;
+    text-align: right;
+
+}
+.nav-menu  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+.nav-menu  li {
+    display: inline-block;
+
+}
+
+.nav-menu a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/*
+ * --------------------
+ * LANDING STLYES
+ * --------------------
+ */
+.landing{
+ background: url(../img/banner.jpg) center no-repeat; 
+ background-size: cover; 
+ background-position: center;
+ height: 100vh;
+ margin-top: -42px;
+ color: white;
+ text-align: center;
+}
+
+.landing h1{
+  font-size: 48px;
+
+}
+
+
+.vertical-align-parent{
+display: table;
+width: 100%;
+}
+
+
+.vertical-align-child{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+
+.vertical-align-child p{
+  padding-top:117px;
+}
+/*
+ * --------------------
+ * ABOUT ME 
+ * --------------------
+ */
+
+ .about-me{
+  text-align:center;
+  background-color: white;
+  max-width: 100%;
+  color:#497BAD;
+ }
+
+ .p2{
+  text-align: center;
+ }
+
+ /*
+ * --------------------
+ * GALLERY
+ * --------------------
+ */
+ .gallery{
+  display: inline-block;
+ }
+img{
+  max-width: 100%;
+}
+
+div p{
+  text-align: center;
+  padding: 10px;
+}
+
+/*
+ * --------------------
+ * SKILLS
+ * --------------------
+ */
+
+.skills div{
+text-align: center;
+font-size: 48px;
+}
+
+.skills p{
+max-width: 100%;
+}
+
+/*
+ * --------------------
+ * CONTACT
+ * --------------------
+ */
+ .contact div{
+  text-align: center;
+  color: #332F2F;
+  font-family:;
+  background-color: white;
+ }
+
+
+  
+
+
+
+

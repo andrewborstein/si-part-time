@@ -1,0 +1,163 @@
+/*
+ * --------------------
+ * GLOBAL
+ * --------------------
+ */
+body {
+  margin: 0;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.vertical-align-parent {
+  display: table;
+  width: 100%;
+}
+.vertical-align-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*
+ * --------------------
+ * HEADER
+ * --------------------
+ */
+header {
+  text-align: right;
+  position: relative;
+  border-bottom: 1px solid #DDDDDD;
+  background: white
+}
+.site-title {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  color: black;
+  line-height: 42px;
+}
+nav {
+    display: inline-block;
+    text-align: right;
+}
+.nav-menu  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu  li {
+    display: inline-block;
+}
+
+.nav-menu a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/*
+ * --------------------
+ * LADNING
+ * --------------------
+ */
+.landing{
+  
+  background: center no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -42px;
+ background-image: url('../img/vinyllanding.jpg');
+}
+
+
+
+/*
+ * --------------------
+ * ABOUT 
+ * --------------------
+ */
+.about{
+  text-align: center;
+  font-size: 18px;
+}
+
+/*
+ * --------------------
+ * GALLERY
+ * --------------------
+ */
+  
+#gallery .column{
+  height: 375px;
+  
+}
+
+.album-1 {
+  background: url('../img/thriller.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.album-2 {
+  background: url('../img/bruce.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
+.album-3 {
+  background: url('../img/queen.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.album-4 {
+  background: url('../img/amergraf.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.album-5 {
+  background: url('../img/darkside.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.album-6 {
+  background: url('../img/police.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*
+ * --------------------
+ * CONTACT
+ * --------------------
+ */
+
+ #contact {
+  text-align: center;
+  background-position: center;
+ }
+
+ i.fa-instagram{
+color: black;
+font-size: 24px;
+text-align: center;
+
+}
+
+ i.fa-tumblr{
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+
+ i.fa-twitter{
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  }
+
+
