@@ -1,0 +1,117 @@
+
+body{
+	background-color: #D3D3D3;
+}
+a {
+	text-decoration: none;
+}
+
+
+.container {
+  max-width: 1400px; /* Main width of your website! Change at your leisure, or use the .container-fluid class instead. */
+  padding: 1em 2em;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+header {
+	background-color: #ffffff;
+	overflow: auto;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top: 1px solid #b30000;
+}
+
+i {
+	margin: 5px;
+}
+.nav-menu {
+	text-decoration: none;
+	margin-right: 20px;
+	padding: 0px;
+	float: right;
+	list-style-type: none;
+}
+.nav-menu li {
+	display: inline-block;
+	padding-right: 20px;
+
+}
+.nav-menu li a {
+		color: #000;
+}
+
+a.icons {
+	color: #ff0000;
+}
+
+a.icons:hover{
+	color: #b30000;
+
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+.banner-mouse {
+	background-color: #020006;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+}
+.banner-mouse img {
+	float: left;
+	border-right: 1px solid white;
+	width: 60%;
+	border-bottom: 1px solid white;
+}
+.mouse-text {
+	color: #ffffff;
+	float: left;
+	clear: right;
+	margin-left: 40px;
+	border-bottom: 2px solid red;
+	padding-top: 200px;
+}
+
+.banner-monkey {
+	background-color: #ffffff;
+	width: 100%;
+	display: inline-block;
+	margin: 0px;
+}
+
+.banner-monkey img {
+	float: right;
+	border-left: 1px solid black;
+	width: 40%;
+	/*border-right: 1px solid black;*/
+}
+
+.monkey-text {
+	color: black;
+	float: left;
+	margin-left: 40px;
+	width: 50%;
+}
+.about{
+	float: left;
+}
+
+footer {
+	background-color: #020006;
+	color: white;
+	border: 2px solid #020006;
+}
+footer p{
+	margin: 20px;
+}

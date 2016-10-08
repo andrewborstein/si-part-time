@@ -1,0 +1,306 @@
+/* Global*/
+body {
+  background-color: #eee;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  max-width: 50px;
+  border: 3px solid #eee;
+  margin: 30px auto;
+}
+
+section {
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+
+/*header*/
+header {
+  background-color: #fff;
+  overflow: auto;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 20px;
+}
+
+header a {
+  display: inline-block;
+}
+
+header a:hover {
+  color: #32CD32;
+}
+
+a.site-name {
+  color: #403E2F;
+  font-size: 18px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.nav-menu li {
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 0 20px 0;
+}
+
+.nav-menu li a {
+  color: #403E2F;
+}
+
+/*header image*/
+
+
+.landing-container {
+  position: relative;
+  height: 50vh;
+  background: url("../img/fractal-opacity.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+.landing-content-outer {
+  padding: 20px 20px 0;
+  /*padding: auto;*/
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.landing-content-inner {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.landing-content-inner  h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.landing-content-inner p {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+.landing-content-inner a {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+.landing-content-inner a:hover {
+color: #403E2F;
+}
+
+/* YouTube Responsive CSS for HubSpot */
+
+.hs-responsive-embed-youtube {
+    position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	padding-top: 25px;
+  	height: 0;
+}
+
+.hs-responsive-embed-youtube iframe {
+  position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+/*body containment*/
+
+.container {
+  max-width: 1140px; /* Main width of your website! Change at your leisure, or use the .container-fluid class instead. */
+  padding: 1em 2em;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+.container-fluid {
+  max-width: none;
+}
+
+/*content sections*/
+
+.column {
+  float: left;
+  padding: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.column  h1 {
+  color: #403E2F;
+  text-align: center;
+  font: 50px/45px 'Open Sans Condensed', sans-serif
+  font-weight: bold;
+}
+
+.column p {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  color: #403E2F;
+  text-align: left;
+}
+
+.column li {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  color: #403E2F;
+  text-align: left;
+}
+
+.column a {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #403E2F;
+}
+
+
+/*rows*/
+.container-row {
+  background-color: #56621b;
+  padding: 1em 2em;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  width: auto;
+}
+.row:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.row  h1 {
+  color: #eee;
+  text-align: center;
+  font: 50px/45px 'Open Sans Condensed', sans-serif
+  font-weight: bold;
+}
+
+.row p {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  color: #eee;
+  text-align: left;
+}
+.row a {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #eee;
+}
+
+/*Read more links*/
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #eee;
+  font-size: .9em;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*footer*/
+
+footer {
+  background-color: #eee;
+  overflow: auto;
+  border-top: 5px solid #ccc;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer  h1 {
+  color: #403E2F;
+  text-align: center;
+  font: 50px/45px 'Open Sans Condensed', sans-serif
+  font-weight: bold;
+}
+
+.footer p {
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  color: #403E2F;
+  text-align: left;
+}
+
+/*media queries*/
+
+@media (min-width: 769px) {
+
+  .column.three-fourths { width: 75%; }
+  .column.two-thirds    { width: 66.666%; }
+  .column.one-half      { width: 50%; }
+  .column.one-third     { width: 33.33%; }
+  .column.one-fourth    { width: 25%; }
+  .column.one-sixth     { width: 16.666%; }
+
+}

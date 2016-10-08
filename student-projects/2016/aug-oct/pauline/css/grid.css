@@ -1,0 +1,112 @@
+/*
+ * Keep my container the same size when I add a border or padding.
+ * Push my content inwards, as opposed to expanding my container outwards.
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+ * A container holds all elements and controls the page’s maximum width.
+ * Using a container will make designing for responsive easier!
+ */
+.container {
+  max-width: 1140px; /* Main width of your website! Change at your leisure, or use the .container-fluid class instead. */
+  padding: 1em 2em;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+.container-fluid {
+  max-width: none;
+}
+/*
+ * Use float to line up our grid elements next to each other.
+ * By default (i.e. mobile devices), make all columns 100% wide with some padding and margin.
+ */
+.column {
+  float: left;
+  padding: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+/*
+ * On all screens 769px and larger (landscape tablets + desktops), enable a grid layout with different width columns.
+ */
+@media (min-width: 769px) {
+
+  .column.three-fourths { width: 75%; }
+  .column.two-thirds    { width: 66.666%; }
+  .column.one-half      { width: 50%; }
+  .column.one-third     { width: 33.333%; }
+  .column.one-fourth    { width: 25%; }
+  .column.one-sixth     { width: 16.666%; }
+
+}
+
+/*
+ * We wrap our columns inside rows to prevent other elements from stacking next to them, i.e. clearing issues.
+ * We fix these by applying a version of the popular "clearfix" (http://cssmojo.com/the-very-latest-clearfix-reloaded/)
+ * to our row class, which will contain floated column elements.
+ */
+.row {
+  margin-right: -1em;
+  margin-left: -1em;
+}
+.row:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 769px) {
+
+  /*
+   * Offset a grid element, by (virutally) creating an empty one.
+   */
+  .column.offset-three-fourths  { margin-left: 75%; }
+  .column.offset-two-thirds     { margin-left: 66.666%; }
+  .column.offset-one-half       { margin-left: 50%; }
+  .column.offset-one-third      { margin-left: 33.333%; }
+  .column.offset-one-fourth     { margin-left: 25%; }
+  .column.offset-one-sixth      { margin-left: 16.666%; }
+
+}
+
+
+/*
+ * Enable grid without padding between each column by adding '.no-padding' to a '.container' element.
+ */
+.no-padding .column {
+  padding: 0;
+}
+
+/*
+ * Enable grid without margin below each column by adding '.no-margin' to a '.container' element.
+ */
+.no-margin .column {
+  margin-bottom: 0;
+}
+
+
+/*
+ * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
+ */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* You custom styles here */
+  body:before { content: "Show me for landscape oriented iPads only."; }
+}
+@media (max-width: 320px) {
+  /* You custom styles here */
+  body:before { content: "Show me for portrait oriented iPhone 4 / 5 only."; }
+}
+
+
+/*
+ * Add .flow-opposite to columns where you want a column on the right on desktop to display first on mobile.
+ */
+.column.flow-opposite { float: right; }

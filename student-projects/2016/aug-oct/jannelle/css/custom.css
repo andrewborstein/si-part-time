@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background: #EEE url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  color: #444;
+}
+.page-section {
+  background: white;
+  padding: 30px;
+  width: 600px;
+  margin: 30px auto;
+}
+.page-section li {
+  display: inline-block;
+}
+div {
+  padding: 50px
+}
+h1{
+  position:relative;
+  top: 60px;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 50px;
+  border-width: 10px;
+}
+a {
+  text-decoration: none;
+  color: #F05F40;
+  transition: 0.4s ease all;
+}
+a:hover {
+  color: #444;
+}
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 1;
+  float: right;
+}
+.nav-menu li {
+  display: inline-block;
+}
+header {
+  overflow: auto;
+  background: #FFF;
+  border-bottom: 1px solid #CCC;
+  padding: 0 10px;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header a {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+i.fa-camera-retro {
+  color: red
+}
+a:hover {
+  box-shadow: inset 2px 4px 10px rgba(0,0,0,0.2);
+}
+a i {
+  transition: .4s ease all;
+}
+a:hover i {
+  transform: rotateY(180deg);
+  color: #555;
+}

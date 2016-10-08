@@ -1,0 +1,81 @@
+/* Debugging Code */
+/*
+* {
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+*/
+/*Global*/
+body{
+	background-color: #eee;
+}
+a {
+	text-decoration: none;
+}
+
+/*Header*/
+header {
+	background-color: #fff;
+	overflow: auto;
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav-menu {
+	text-decoration: none;
+	margin: 0;
+	padding: 0px;
+	float: right;
+	list-style-type: none;
+}
+.nav-menu li {
+	display: inline-block;
+	padding-right: 20px;
+
+}
+.nav-menu li a {
+		color: #000;
+}
+
+a.sitename {
+	color: #ff0000;
+}
+
+a.sitename:hover{
+	color: #b30000;
+
+}
+
+.landing-content-inner {
+	margin-left: auto;
+	margin-right: auto;
+	max-width; 1000px;
+}
+
+.landing-content-inner h1 {
+	color: white;
+	text-align: center;
+}
+
+.landing-content-inner hr {
+	max-width: 50px;
+	border: 3px solid #f05f40;
+	margin: 30px auto;
+}
+
+.landing-content-inner p {
+	font-family: "Times New Roman", serif;
+	line-height: 1.5;
+	color: #fff;
+	text-align: center;
+}
+.landing-content-outer{
+	padding: 100px 20px 0;
+	postiion: absolute;
+	text-align: center;
+	top: 50%;
+
+}
+.landing-content-inner a {
+
+}
