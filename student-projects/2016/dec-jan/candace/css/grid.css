@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 2em 3em;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+/*.column,
+.container,
+.row {
+  background-color: #f0e68c;
+  border: 1px none #ff8c00;
+  text-align: center;
+}*/
+
+.container-fluid {
+  max-width: none;
+}
+
+.no-padding .column {
+  padding: 0;
+}

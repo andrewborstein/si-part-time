@@ -1,0 +1,195 @@
+/* Helper
+======================================================*/
+.clearfix {
+  overflow: auto;
+}
+
+body {
+  background-color: #ccc;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+/* Header
+======================================================*/
+a{
+  text-decoration: none;
+}
+header {
+  background-color: rgba(255, 255, 255, .3);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  bor der: 2px solid white;
+}
+
+*{
+  color: white;
+  font-weight: bold;
+  /*border: 1px solid red;*/
+
+}
+
+body {
+  background-color: #ccc;
+  height: 100%;
+}
+
+.biology{
+  background-image: url("../img/DSC_0497_IJFR.jpg");
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.contact{
+  background-image: url("../img/IMG_0278.JPG");
+  height: 40%;
+  margin: 0 auto;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.content div{
+  height: 600px;
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+
+
+}
+.content{
+  background-color: #ccc;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.bordered{
+  border: 2px solid white;
+}
+h1{
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.hero{
+  background-image: url("../img/20120112pdj101.jpg");
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.hero div, .biology div, .photography div, .web_dev div, .contact div{
+  margin: 0 auto;
+}
+html{
+  height: 100%;
+  font-family: "proxima-nova", sans-serif;
+
+}
+.inline-block{
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  margin:  10 auto;
+  padding: 10px 10px;
+}
+.left{
+  float: left;
+  margin: 0 auto;
+}
+.right{
+  float: right;
+  margin: 0 auto;
+}
+
+.name {
+  float: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+nav{
+  height: 10px 10px;
+}
+
+p{
+  margin: 0 auto;
+  padding: 10px auto;
+}
+.photography{
+  background-image: url("../img/DSC_0272.jpg");
+  background-color: grey;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.sixty{
+  width: 60%;
+}
+ul{
+  padding: 0;
+  height: auto;
+}
+.web_dev{
+  background-image: url("../img/Screen Shot 2017-01-31 at 11.58.22 PM.png");
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 493px) {
+  
+  header{
+    visibility: hidden;
+  }
+  .photography, .web_dev {
+    background-position: left;
+  }
+  
+}

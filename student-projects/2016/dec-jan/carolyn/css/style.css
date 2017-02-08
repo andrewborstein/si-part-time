@@ -1,0 +1,314 @@
+/* Helper
+======================================================*/
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  color: #444;
+  margin: 0;
+  line-height: 1;
+  display: block;
+  background-attachment: scroll;
+}
+
+
+/* Header
+======================================================*/
+header {
+  background-color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  overflow: auto;
+  position: fixed;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgrey;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #FFCC00;
+}
+
+header a {
+  display: inline-block;
+}
+
+header a:hover {
+  color: #00CCFF;
+}
+
+.site-name,
+.nav-menu {
+  display: block;
+  text-align: center;
+}
+
+.site-name {
+  color: #FFCC00;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  line-height: 50px;
+  padding: 0 10px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.nav-menu {
+  margin: 0;
+  padding-left: 0;
+}
+
+.nav-menu li {
+  display: inline-block
+}
+
+.nav-menu a {
+  color: #424B54;
+  padding: 0 10px 16px;
+}
+
+
+
+/* Fonts
+======================================================*/
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #EEABC4;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3rem;
+  color: #424B54;
+  font-weight: 300;
+  text-transform: uppercase;
+
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  text-transform: none;
+  line-height: 1.5;
+  color: #424B54;
+}
+
+/*Main
+======================================================*/
+
+.main, .work, #connect {
+  text-align: center;
+}
+
+.main a:hover {
+  color: #00CCFF;
+}
+
+
+
+/* Hero & Jumbotron
+======================================================*/
+
+.hero img, .jumbotron img {
+  width: 100%;
+
+}
+
+
+/* Profile
+======================================================*/
+
+.profile .boilerplate {
+  line-height: 1.2;
+}
+
+.profile .details p {
+  line-height: 1.5;
+}
+
+.profile .side img {
+  border-radius: 50%;
+  border: 2px solid #EEABC4;
+  margin-bottom: 25px;
+}
+
+.profile .side .icons .icon {
+  padding: 10px;
+  width: 33.3%;
+  display: inline-block;
+}
+
+
+/* Portfolio
+======================================================*/
+
+#portfolio {
+  background-image: url(http://i.imgur.com/VE96Adq.png);
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.work h1 {
+  padding-bottom: 25px;
+}
+
+.work .gallery img {
+  width: 100%;
+}
+
+/* Connect
+======================================================*/
+
+.connect h1 {
+  line-height: 1.2;
+  text-align: center;
+}
+
+.connect  .icon {
+  margin-bottom: 25px;
+}
+
+.connect a:hover {
+  color: #00CCFF;
+}
+
+/* Footer
+======================================================*/
+
+footer {
+  text-align: center;
+  display: block;
+  border-top: 2px solid lightgrey;
+}
+
+footer a:hover {
+  color: #00CCFF;
+}
+
+.social .icon {
+  width: 16.66%;
+  display: inline-block;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1060px)  {
+
+.container {
+  max-width: 1140px; /* Main width of your website! Change at your leisure, or use the .container-fluid class instead. */
+  padding: 1em 2em;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.container-fluid {
+  max-width: none;
+}
+
+.column {
+  float: left;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.no-padding .column {
+  padding: 0;
+}
+
+.no-margin .column {
+  margin-bottom: 0;
+}
+
+.site-name {
+  float: left;
+}
+
+.nav-menu {
+  float: right;
+  margin-top: 20px;
+}
+
+.main .profile .boilerplate {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+
+}
+
+.main .details {
+  width: 660px;
+  margin-top: 35px;
+  border-right: 2px solid #EEABC4;
+
+}
+
+.main .details p {
+  text-align: left;
+}
+
+.main .side {
+  width: 380px;
+}
+
+.main .side img {
+  margin-bottom: 0;
+}
+
+.main .side p {
+  width: 75%;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.contact {
+  margin-top: 25px;
+}
+
+.connect {
+  display: block;
+}
+
+.connect .icon {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.social {
+  float: right;
+}
+
+.social .icon {
+  margin-right: 10px;
+}
+
+}
+

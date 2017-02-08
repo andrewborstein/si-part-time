@@ -25,13 +25,13 @@ h2 {
   line-height: 1.25;
 }
 .title {
-  padding: 3em 1em;
+  padding: 6em 1em;
 }
 .title:first-of-type {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 .title:nth-of-type(2) {
-    padding-top: 0;
+  padding-top: 3em;
 }
 a {
   color: #FF003E;

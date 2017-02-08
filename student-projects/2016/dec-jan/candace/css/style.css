@@ -1,0 +1,102 @@
+body {
+  background-color: #ffffe0;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header {
+	color: ff8c00; 
+}
+
+h2 {
+	float: left;
+	height: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+}
+
+li {
+    float: right;
+    font-family: 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ffd700;
+}
+
+.navtwo {
+	display: inline-block;
+	float: center;
+	padding: 14px 16px;
+	margin-left: 400px;
+	font-family: 'Acme', sans-serif;
+	font-size: 60px;
+	
+}
+
+.welcome {
+	background-image: url('http://cambridge.com/wp-content/uploads/2011/06/283735_468896423186785_686093130_n.jpg');
+	background-size: cover;
+	display: center;
+	border: solid #f0e68c 15px;
+	height: 600px;
+
+}
+
+.container {
+  background-color: #f0e68c;
+}
+
+
+.container p {
+    text-align: left;
+}
+
+
+footer {
+  display: flex;
+  
+}
+
+
+
+
+/*
+ * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
+ */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* You custom styles here */
+  body:before { content: "Show me for landscape oriented iPads only."; }
+}
+@media (max-width: 320px) {
+  /* You custom styles here */
+  body:before { content: "Show me for portrait oriented iPhone 4 / 5 only."; }
+}
+
+/*
+ * Add .flow-opposite to columns where you want a column on the right on desktop to display first on mobile.
+ */
+.column.flow-opposite { float: right; 
+}

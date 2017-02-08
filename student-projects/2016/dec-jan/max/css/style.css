@@ -1,0 +1,160 @@
+body{
+  background:url("http://i349.photobucket.com/albums/q381/maxsmith1438/zigbackground_zpss9rn2bqv.jpg");
+  color: white;
+  box-sizing:border-box;
+  font-family:arial;
+
+  
+}
+body a{
+    
+    text-decoration: none;
+    color:white;
+}
+
+.navigation{
+  width:25%;
+  height:2000px;
+  position:fixed;
+  border-right:solid white;
+  padding-right:25px;
+}
+
+.subtitle{
+  font-size:28px;
+  text-align:right;
+    font-family: 'Inconsolata', monospace;
+    
+
+ 
+
+
+}
+
+.logo {
+  font-size:45px;
+  text-align:right;
+  padding-top:90px;
+  
+   
+  }
+
+}
+
+.logo img{
+    width:110%
+}
+
+.left-nav{
+  
+  padding-top:250px;
+  font-size:19px;
+  text-align:right;
+    font-family: 'Inconsolata', monospace;
+    
+
+}
+.left-nav li{
+  list-style-type:none;
+}
+
+.content{
+  margin-left:30%;
+  padding-top:100px;
+  position:relative;
+  height:150px;
+}
+
+.home-photos{
+  position:relative;
+    max-width:1000px;
+}
+.home-photos img{
+  margin-right:-5px;
+  width:350px;
+    
+  
+}
+
+
+
+.top-border{
+ 
+  height:0px;
+  border-bottom:solid white;
+  margin-left:-160px;
+  margin-top:-50px;
+  margin-bottom:40px;
+  
+}
+
+.bottom-border{
+ 
+  height:0px;
+  border-top:solid white;
+  margin-left:-160px;
+  margin-top:50px;
+  margin-bottom:40px;
+  text-align:center;
+  padding-top:10px;
+    padding-bottom: 10px;
+font-size: 9px;
+    clear:both;
+    
+  
+}
+
+.gray{
+  display:inline;
+  color:#5a5a5a;
+  
+}
+
+.white{
+  display:inline;
+}
+
+.home-photos img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+/* Disable grayscale on hover */
+.home-photos img:hover {
+  -webkit-transition: all 1s ease;
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.page-title{
+    font-size:50px;
+    text-align: center;
+    font-family: arial;
+    
+    
+}
+
+.body-text{
+    
+    font-size:18px;
+    font-family: 'Inconsolata', monospace;
+    clear:both;
+    text-align:center;
+    
+    
+}
+    
+.personal-photo{
+    width:100%;
+}
+
+.personal-photo img{
+    width:50%;
+    float:left;
+    margin-left: 25%;
+    margin-top:25px;
+    margin-bottom:25px;
+    
+    
+}

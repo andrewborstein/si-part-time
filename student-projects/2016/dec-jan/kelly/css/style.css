@@ -1,0 +1,240 @@
+/* Helper
+=======================================================*/
+.clearfix:after {
+	content: '';
+  display: block;
+  clear: both;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+h1{
+	font-size: 44px;
+}
+
+h2{
+	font-size: 32px;
+}
+
+h3{
+	font-family: "Playfair Display", serif;
+	font-size: 24px;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+button{
+	background-color: #FFA500;
+	border-style: none;
+	border-radius: 12px;
+	color: black;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	padding: 15px 10px;
+}
+
+button:hover{
+	background-color: #F7FFF7;
+}
+
+body{
+	background-color: #fff;
+	line-height: 1.7
+}
+
+/* Header and Navigation
+=======================================================*/
+header{
+	overflow: auto;
+	background: #FFF;
+	border-bottom: 1px soild #CCC;
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	padding: 0 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 1;
+}
+
+header a{
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.nav-menu{
+	float: right;
+	margin: 0;
+	text-align: center;
+}
+
+.nav-menu li{
+	float: left;
+	list-style-type: none;
+}
+
+.nav-menu a{
+	color: black;
+	font-weight: 600;
+}
+
+.nav-menu a:hover{
+	color: #FFA500;
+}
+
+
+/* Main
+=======================================================*/
+.hero{
+	background-image: url("../img/mtn_sunset.jpeg");
+	background-size: cover;
+	color: black;
+	font-family: "Playfair Display", serif;
+	height: 400px;
+	padding: 150px;
+	text-align: center;
+	width: 100%;
+}
+
+.section-container {
+	margin-top: 50px;
+}
+
+.study1, .study2, .study3{
+	background-color: #C6CED3;
+	display: block;
+	font-family: "Playfair Display", serif;
+	margin: 0 auto;
+	padding: 20px 20px 40px;
+	text-align: center;
+	width: 80%;
+}
+
+.study2{
+	background-color: #7EA6AF;
+}
+
+.appsandmortar{
+	background-color: #C6CED3;
+}
+
+#bio{
+	background-color: #7EA6AF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+	width: 80%;
+}
+
+.bio-img {
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 0 25px;
+	background: url(../img/me.jpg) no-repeat center 30%/cover;
+}
+
+.left{
+	float: left;
+	padding: 0 30px;
+	height: 270px;
+	width: auto;
+	max-width: 100%;
+}
+
+.right{
+	float: right;
+	padding: 0 30px;
+	height: 270px;
+	width: auto;
+	max-width: 100%;
+}
+
+/* Footer
+=======================================================*/
+footer{
+	background: #4C5C68;
+	color: white;
+	font-size: 25px;
+	padding: 40px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+footer li{
+	color: white;
+	display: inline-block;
+	list-style: none;
+    padding: 5px 10px;
+
+}
+
+#contact{
+	text-align: center;
+}
+
+.contact_heading{
+	/*color: #FFA500;*/
+	display: block;
+	font-family: "Playfair Display", serif;
+	padding: 20px 0;
+	margin: 0 auto;
+
+}
+
+#contact a:hover{
+	color: #FFA500;
+}
+
+.icons{
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.icons a{
+	color:white;
+}
+
+.icons a:hover{
+	color: #FFA500;
+}
+
+
+/* Small screens */
+/*html {
+  font-size: 100%;
+}*/
+
+/* Medium screens
+/*@media (min-width: 769px) {
+  html {
+    font-size: 110%;
+  }
+}*/
+
+/* Large screens */
+/*@media (min-width: 1025px) {
+  html {
+    font-size: 120%;
+  }
+}*/
+
