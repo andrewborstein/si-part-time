@@ -52,7 +52,7 @@ html {
  * We wrap our columns inside rows to prevent other elements from stacking next to them, i.e. clearing issues.
  * We fix these by applying a version of the popular "clearfix" (http://cssmojo.com/the-very-latest-clearfix-reloaded/)
  * to our row class, which will contain floated column elements.
- * We use negative margins to make sure rows/column can be infinitely nested.
+ * We also use negative margins to make sure nested rows take up the full-width of their containers.
  */
 .row {
   margin-left: -1em;

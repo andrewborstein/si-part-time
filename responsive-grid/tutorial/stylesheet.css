@@ -881,6 +881,10 @@ img {
   margin-bottom: 1em;
 }
 
+.grid .container > .column:not(:last-child) {
+    margin-bottom: 0;
+}
+
 .grid .container {
   border: 2px dashed rgba(255,255,255,0.3);
   padding: 1em 2em;
