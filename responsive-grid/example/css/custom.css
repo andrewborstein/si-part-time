@@ -1,0 +1,11 @@
+/*
+ * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
+ */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* You custom styles here */
+  body:before { content: "Show me for landscape oriented iPads only."; }
+}
+@media (max-width: 320px) {
+  /* You custom styles here */
+  body:before { content: "Show me for portrait oriented iPhone 4 / 5 only."; }
+}

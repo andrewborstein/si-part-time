@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <!-- Basic Page Needs -->
     <title>Grid</title>
     <meta name="description" content="A simple guide to responsive design.">
@@ -9,11 +10,12 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="stylesheet.css">
-
     <!-- Google Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600">
+
+    <!-- CSS -->
+    <link href="stylesheet.css" rel="stylesheet" >
+
   </head>
   <body>
 
@@ -22,7 +24,7 @@
         <div class="intro">
           <h1>grid</h1>
           <p>A simple guide to responsive design.
-            <br>Created by <a href="http://adamkaplan.me/" target="_blank">Adam Kaplan</a> and modified by <a href="http://andrewborstein.com" target="_blank">Andrew Borstein</a>.
+            <br>Created by <a href="//adamkaplan.me/" target="_blank">Adam Kaplan</a> and modified by <a href="//andrewborstein.com" target="_blank">Andrew Borstein</a>.
           </p>
           <hr>
           <p>Read the first few sections to get an overview of responsive design and why we use it. The numbered sections will guide you through actually implementing this design strategy.</p>
@@ -68,7 +70,7 @@
         <p>Introduce layout-specific rules only when you need them. Use <code>min-width</code> to layer complexity on your layout as the viewport widens. It's easier to have all the media queries nearby, rather than at the end
         of the stylesheet or in a separate document.</p>
         <hr>
-        <script src="https://gist.github.com/andrewborstein/a7207c7250331afa69bd.js"></script>
+        <script src="//gist.github.com/andrewborstein/a7207c7250331afa69bd.js"></script>
       </div>
     </section>
 
@@ -77,7 +79,7 @@
         <h1>Let's Dive Right In</h1>
         <p>Follow along with this tutorial by copying and pasting code into the specified files and locations, indicated <em class="unstyled"><code>&lt;like so&gt;</code></em> above the code snippets.</p>
         <hr>
-        <img src="https://media.giphy.com/media/iqzp1pBJtNQUU/giphy.gif">
+        <img src="//media.giphy.com/media/iqzp1pBJtNQUU/giphy.gif">
       </div>
     </section>
 
@@ -88,7 +90,7 @@
         <p>Every website should at least have a title and description. The title will display at the top of browser/tab window, and both will appear in search engine results.</p>
         <hr>
         <em><code>index.html &rarr; &lt;head&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/451d3838f997a13de946.js"></script>
+        <script src="//gist.github.com/andrewborstein/451d3838f997a13de946.js"></script>
       </div>
     </section>
 
@@ -99,7 +101,8 @@
         <p>This forces pixel-dense devices (e.g. smartphones and tablets or anything with a 'retina' display) to display your content properly.</p>
         <hr>
         <em><code>index.html &rarr; &lt;head&gt;</code></em>
-        <script src="https://gist.github.com/aekaplan/8243831.js"></script>
+        <script src="//gist.github.com/andrewborstein/bf366eae7e2253ccfd9a.js"></script>
+
       </div>
     </section>
 
@@ -110,7 +113,7 @@
         <p>Employing effective fonts and icons puts the 'fun' in fundamental!  Include as many fonts as you like, and make sure your icon <code>&lt;link&gt;</code> url is up-to-date.</p>
         <hr>
         <em><code>index.html &rarr; &lt;head&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/b2787171e26eef1b8eb3.js"></script>
+        <script src="//gist.github.com/andrewborstein/b2787171e26eef1b8eb3.js"></script>
       </div>
     </section>
 
@@ -118,11 +121,11 @@
       <div class="container">
         <div class="circle">4</div>
         <h1>Normalize, Grid, &amp; Custom Styles</h1>
-        <p>Browsers will render your CSS differently by default. To avoid this, include <a href="https://code.google.com/archive/p/normalize-css/" target="_blank">Normalize.css</a> or Andrew's <a href="https://gist.github.com/andrewborstein/099e0ed6b5b5fd5a0390" target="_blank">Initialize.css</a>. Remember to place it <em class="unstyled">before</em> your custom stylesheets. For this tutorial, we'll place all our grid-related CSS inside a new file called <code>grid.css</code>.</p><br>
-        <p>If you want to include the custom styles used in this demo, create a new file called <code>grid-demo-styles.css</code>, <a href="https://github.com/andrewborstein/responsive-grid-example/blob/gh-pages/css/grid-demo-styles.css">copy this CSS</a> into that file, and then add the class <code>'example-style'</code> to your <code>&lt;body&gt;</code>.</p>
+        <p>Browsers will render your CSS differently by default. To avoid this, include <a href="//code.google.com/archive/p/normalize-css/" target="_blank">Normalize.css</a> or Andrew's <a href="//gist.github.com/andrewborstein/099e0ed6b5b5fd5a0390" target="_blank">Initialize.css</a>. Remember to place it <em class="unstyled">before</em> your custom stylesheets. For this tutorial, we'll place all our grid-related CSS inside a new file called <code>grid.css</code>.</p><br>
+        <p>If you want to include the custom styles used in this demo, create a new file called <code>grid-demo-styles.css</code>, <a href="//github.com/andrewborstein/si-web-design/blob/gh-pages/responsive-grid/example/css/grid-demo-styles.css">copy this CSS</a> into that file, and then add the class <code>'example-style'</code> to your <code>index.html &rarr; &lt;body&gt;</code>.</p>
         <hr>
         <em><code>index.html &rarr; &lt;head&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/f5f56af0d88afe3c10b4.js"></script>
+        <script src="//gist.github.com/andrewborstein/f5f56af0d88afe3c10b4.js"></script>
       </div>
     </section>
 
@@ -171,17 +174,17 @@
       <div class="container">
         <div class="circle">5</div>
         <h1>Use box-sizing: border-box</h1>
-        <p>This will keep containers the same size when you add a border or padding &mdash; it pushes content <em class="unstyled">inwards</em> instead of expanding the container <em class="unstyled">outwards</em>. I've already added this snippet in <code>initialize.css</code>, but you should add it manually if you don't include that file.</p>
+        <p>This will keep containers the same size when you add a border or padding &mdash; it pushes content <em class="unstyled">inwards</em> instead of expanding the container <em class="unstyled">outwards</em>. I've already added this snippet in <code>initialize.css</code>, but you should add it manually in case you don't include that file.</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/5af48c687358a84cab5f.js"></script>
+        <script src="//gist.github.com/andrewborstein/5af48c687358a84cab5f.js"></script>
       </div>
     </section>
 
     <section>
       <div class="container">
         <h1>Your Choice (Choose Wisely)</h1>
-        <p><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">What was once a bug</a>
+        <p><a href="//en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">What was once a bug</a>
         is now a widely used CSS property. It basically means you can choose whether or not to include borders and padding in
         the width of your content.</p>
         <hr>
@@ -209,14 +212,14 @@
         <p>A container holds your entire site &mdash; or you can have multiple containers for each section &mdash; and controls its maximum width. Change the <code>max-width</code> property at your leisure or use the <code>.container-fluid</code> class to make your container expand with the size of the browser window.</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/b81a660fcf6ade155c25.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/a66a88b25384304d680f5d9abc5fdd36.js"></script>
+        <script src="//gist.github.com/andrewborstein/b81a660fcf6ade155c25.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/a66a88b25384304d680f5d9abc5fdd36.js"></script>
         <hr>
         <p>If you didn't add the custom styles I linked to above, and you want to make it easier to visualize what the grid is doing (e.g. dashed borders, centered text, etc), add this CSS.</p>
         <hr>
         <em><code>custom.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/b155894354dcfd727e2812cad7ef5c94.js"></script>
+        <script src="//gist.github.com/andrewborstein/b155894354dcfd727e2812cad7ef5c94.js"></script>
       </div>
     </section>
 
@@ -234,9 +237,9 @@
         additional styles needed! We're also giving them padding inside and margins outside, default styles that we can easily override later.</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/fdcf1fba1c71b2b360ed.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/85bf6c9e286e391cca52459dc0d45a6a.js"></script>
+        <script src="//gist.github.com/andrewborstein/fdcf1fba1c71b2b360ed.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/85bf6c9e286e391cca52459dc0d45a6a.js"></script>
       </div>
     </section>
 
@@ -283,9 +286,9 @@
 
       <div class="container">
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/66e677f51c2797d58e8c.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/b667696c9968928d671e.js"></script>
+        <script src="//gist.github.com/andrewborstein/66e677f51c2797d58e8c.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/b667696c9968928d671e.js"></script>
       </div>
     </section>
 
@@ -381,12 +384,12 @@
       <div class="container">
         <div class="circle">9</div>
         <h1>Create Rows</h1>
-        <p>We wrap our columns inside rows to prevent other elements from stacking next to them, and clearing issues are fixed using the popular "<a href="http://learnlayout.com/clearfix.html" target="_blank">clearfix hack</a>". We also add negative margins to make sure nested rows take up the full-width of their containers.</p>
+        <p>We wrap our columns inside rows to prevent other elements from stacking next to them, and clearing issues are fixed using the popular "<a href="//learnlayout.com/clearfix.html" target="_blank">clearfix hack</a>". We also add negative margins to make sure nested rows take up the full-width of their containers.</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/e759fbe6e8672354b4bc.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/ba2e397b7129bc86156a.js"></script>
+        <script src="//gist.github.com/andrewborstein/e759fbe6e8672354b4bc.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/ba2e397b7129bc86156a.js"></script>
       </div>
     </section>
 
@@ -418,10 +421,10 @@
       <div class="container">
         <div class="circle">10</div>
         <h1>Nest Columns</h1>
-        <p>You can nest columns <em class="unstyled">inside</em> other columns, infinitely. <br>It's like a <code>div</code> <a href="http://inception.davepedu.com/">inception</a>.</p>
+        <p>You can nest columns <em class="unstyled">inside</em> other columns, infinitely. <br>It's like a <code>div</code> <a href="//inception.davepedu.com/">inception</a>.</p>
         <hr>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/17aa2c2ff6f8fac47284.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/17aa2c2ff6f8fac47284.js"></script>
       </div>
     </section>
 
@@ -465,9 +468,9 @@
         <p>You can offset a column by (virutally) creating an empty one. We use the same percentages, but as <code>margin</code> instead of <code>width</code>.</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/c7871088ec6669932606.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/479ee36a47ff9d8cfe8c.js"></script>
+        <script src="//gist.github.com/andrewborstein/c7871088ec6669932606.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/479ee36a47ff9d8cfe8c.js"></script>
       </div>
     </section>
 
@@ -497,9 +500,9 @@
         <p>Enable a grid without padding inside each column by adding a <code>.no-padding</code> class to a <code>.container</code> element</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/0ad4701b925188726efd.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/6708186ed655f9bf7966.js"></script>
+        <script src="//gist.github.com/andrewborstein/0ad4701b925188726efd.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/6708186ed655f9bf7966.js"></script>
       </div>
     </section>
 
@@ -534,9 +537,9 @@
         <p>Enable a grid without margin below each column by adding a <code>.no-margin</code> class to a <code>.container</code> element</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/6642beb052408b7af4ed.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/4835ff2ddb86f2f1fb97.js"></script>
+        <script src="//gist.github.com/andrewborstein/6642beb052408b7af4ed.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/4835ff2ddb86f2f1fb97.js"></script>
       </div>
     </section>
 
@@ -567,8 +570,8 @@
         <h1>More Media Queries</h1>
         <p>Add as many <code>@media</code> query break points as you like, trying to keep in mind common device screen widths. You can use <code>min-width</code>, <code>max-width</code>, or combine both to style very specific layouts.</p>
         <hr>
-        <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/37044688499754d64413.js"></script>
+        <em><code>custom.css</code></em>
+        <script src="//gist.github.com/andrewborstein/37044688499754d64413.js"></script>
       </div>
     </section>
 
@@ -584,9 +587,9 @@
         appear on the right on larger screens.</p>
         <hr>
         <em><code>grid.css</code></em>
-        <script src="https://gist.github.com/andrewborstein/9c14ac2560c2d25d7f23.js"></script>
-        <em><code>&lt;body&gt;</code></em>
-        <script src="https://gist.github.com/andrewborstein/390208e4fb57598d44a0.js"></script>
+        <script src="//gist.github.com/andrewborstein/9c14ac2560c2d25d7f23.js"></script>
+        <em><code>index.html &rarr; &lt;body&gt;</code></em>
+        <script src="//gist.github.com/andrewborstein/390208e4fb57598d44a0.js"></script>
       </div>
     </section>
 
@@ -632,13 +635,13 @@
             <h3>Further Reading</h3>
             <hr class="small">
             <ul>
-              <li><a href="http://www.abookapart.com/products/mobile-first" target="_blank">A Book Apart: Mobile First</a></li>
-              <li><a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">A Book Apart: Responsive Web Design</a></li>
-              <li><a href="http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design" target="_blank">Beginner's Guide to Responsive Web Design</a></li>
-              <li><a href="http://www.paulirish.com/2012/box-sizing-border-box-ftw" target="_blank">Box-sizing: Border-box FTW</a></li>
-              <li><a href="http://dev.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972" target="_blank">Don't Forget the Viewport Meta Tag</a></li>
-              <li><a href="http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/" target="_blank">The Many Faces of ‘Mobile First'</a></li>
-              <li><a href="http://fuseinteractive.ca/blog/understanding-humble-clearfix" target="_blank">Understanding the Humble Clearfix</a></li>
+              <li><a href="//www.abookapart.com/products/mobile-first" target="_blank">A Book Apart: Mobile First</a></li>
+              <li><a href="//www.abookapart.com/products/responsive-web-design" target="_blank">A Book Apart: Responsive Web Design</a></li>
+              <li><a href="//blog.teamtreehouse.com/beginners-guide-to-responsive-web-design" target="_blank">Beginner's Guide to Responsive Web Design</a></li>
+              <li><a href="//www.paulirish.com/2012/box-sizing-border-box-ftw" target="_blank">Box-sizing: Border-box FTW</a></li>
+              <li><a href="//dev.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972" target="_blank">Don't Forget the Viewport Meta Tag</a></li>
+              <li><a href="//bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/" target="_blank">The Many Faces of ‘Mobile First'</a></li>
+              <li><a href="//fuseinteractive.ca/blog/understanding-humble-clearfix" target="_blank">Understanding the Humble Clearfix</a></li>
             </ul>
           </div>
 
@@ -646,13 +649,13 @@
             <h3>References</h3>
             <hr class="small">
             <ul>
-              <li><a href="http://opensignal.com/reports/fragmentation-2013/" target="_blank">Android Fragmentation Visualized</a></li>
-              <li><a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model" target="_blank">Box Model</a></li>
-              <li><a href="https://developers.google.com/chrome-developer-tools/" target="_blank">Chrome Developer Tools</a></li>
-              <li><a href="https://gist.github.com/aekaplan" target="_blank">Code samples by GitHub Gist</a></li>
-              <li><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Internet Explorer Box Model</a></li>
-              <li><a href="http://coding.smashingmagazine.com/2009/04/22/progressive-enhancement-what-it-is-and-how-to-use-it/" target="_blank">Progressive Enhancement</a></li>
+              <li><a href="//opensignal.com/reports/fragmentation-2013/" target="_blank">Android Fragmentation Visualized</a></li>
+              <li><a href="//daneden.github.io/animate.css/" target="_blank">Animate.css</a></li>
+              <li><a href="//developer.mozilla.org/en-US/docs/Web/CSS/box_model" target="_blank">Box Model</a></li>
+              <li><a href="//developers.google.com/chrome-developer-tools/" target="_blank">Chrome Developer Tools</a></li>
+              <li><a href="//gist.github.com/aekaplan" target="_blank">Code samples by GitHub Gist</a></li>
+              <li><a href="//en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Internet Explorer Box Model</a></li>
+              <li><a href="//coding.smashingmagazine.com/2009/04/22/progressive-enhancement-what-it-is-and-how-to-use-it/" target="_blank">Progressive Enhancement</a></li>
             </ul>
           </div>
         </div>

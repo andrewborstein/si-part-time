@@ -6,38 +6,34 @@
 
 .example-style {
   background-color: #497bad;
-  font-family: Lato, sans-serif;
   color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 6em;
   text-align: center;
 }
 
 .example-style:before {
-  display: block;
   background: rgba(225, 255, 255, 0.1);
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  padding: 1em;
-  text-align: center;
+  display: block;
   font-style: italic;
-}
-
-.example-style {
+  padding: 1em;
   text-align: center;
 }
 
 .example-style section {
   border-top: none;
-  margin-bottom: 6em;
   overflow: auto;
+}
+
+.example-style section + section {
+  margin-top: 6em;
 }
 
 @media (min-width: 1025px) {
   .example-style .container {
     border: 2px dashed rgba(255, 255, 255, 0.5);
   }
-}
-
-.example-style .container:not(.no-padding) {
-  padding-bottom: 0;
 }
 
 .example-style .column {
@@ -50,13 +46,13 @@
 }
 
 .example-style h1 {
-  padding: 3em 0;
-  margin: 0 0 6em;
-  letter-spacing: 6px;
-  font-size: 16px;
-  text-transform: uppercase;
   background: white;
   color: #497bad;
+  font-size: 16px;
+  letter-spacing: 6px;
+  margin: 0 0 6em;
+  padding: 3em 0;
+  text-transform: uppercase;
 }
 
 .example-style h2 {
@@ -69,12 +65,20 @@
 }
 
 .example-style .button a {
-  text-align: center;
   background: white;
-  padding: 1em;
-  margin: 0 1em;
-  text-decoration: none;
   color: #333;
+  display: block;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease all;
+}
+
+@media (min-width: 1025px) {
+  .example-style .button a {
+    display: inline-block;
+  }
 }
 
 .example-style .button a:first-of-type {
@@ -84,12 +88,5 @@
 }
 
 .example-style .button a:hover {
-  background: #ddd;
+  opacity: 0.7
 }
-
-.example-style .button a:first-of-type:hover {
-  background: transparent;
-  color: #ddd;
-  border-color: #ddd;
-}
-
