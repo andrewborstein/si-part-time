@@ -11,9 +11,9 @@
 /* GLOBAL */
 body {
   background: #EEE;
+  color: #444;
   font-family: 'Merriweather', Georgia, serif;
   font-size: 14px;
-  color: #444;
 }
 
 h1,
@@ -62,16 +62,16 @@ a {
 }
 
 hr {
-  max-width: 50px;
   border-color: #f05f40;
   border-width: 3px;
   margin: 30px auto;
+  max-width: 50px;
 }
 
 hr {
-  max-width: 50px;
   border: 3px solid #f05f40;
   margin: 30px auto;
+  max-width: 50px;
 }
 
 hr.light {
@@ -136,8 +136,8 @@ a.text-primary:hover {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .call-to-action h2 {
@@ -151,11 +151,11 @@ a.text-primary:hover {
 
 /* BUTTONs */
 .btn {
-  cursor: pointer;
   background-color: #FFF;
   border-radius: 300px;
   border: 0;
   color: #222;
+  cursor: pointer;
   display: inline-block;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
@@ -223,7 +223,6 @@ a.text-primary:hover {
 .nav-menu {
   margin: 0;
   padding: 0;
-  overflow: auto;
   text-align: center;
 }
 @media (min-width: 769px) {
@@ -277,8 +276,8 @@ a.text-primary:hover {
 }
 
 .landing-content-inner {
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   max-width: 1000px;
 }
 
@@ -350,8 +349,8 @@ a.text-primary:hover {
 }
 .project-category ,
 .project-name {
-  padding: 0 15px;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  padding: 0 15px;
 }
 
 .project-category {
