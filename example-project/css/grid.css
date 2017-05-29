@@ -19,7 +19,7 @@ html {
 
 /*
  * ----------------------
- * SITE CONTAINER
+ * CONTAINER
  * ----------------------
  */
 
@@ -28,12 +28,14 @@ html {
  * Using a container will make designing for responsive easier!
  */
 .container {
-  max-width: 1140px; /* Main width of your website! Change at your leisure, or use the .container-fluid class instead. */
-  padding: 1em 2em;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px; /* This should the maximum width of your website content! Change at your leisure... */
   overflow: auto;
+  padding: 1em 2em;
 }
+
+/* ...or use the .container-fluid class instead, to make the content always stretch to be full-width. */
 .container.fluid {
   max-width: none;
 }
@@ -42,7 +44,7 @@ html {
 
 /*
  * ----------------------
- * STRUCTURE
+ * ROW
  * ----------------------
  */
 
@@ -50,27 +52,52 @@ html {
  * We wrap our columns inside rows to prevent other elements from stacking next to them, i.e. clearing issues.
  * We fix these by applying a version of the popular "clearfix" (http://cssmojo.com/the-very-latest-clearfix-reloaded/)
  * to our row class, which will contain floated column elements.
+ * We also use negative margins to make sure nested rows take up the full-width of their containers.
  */
 .row {
-  margin-right: -1em;
   margin-left: -1em;
+  margin-right: -1em;
 }
 .row:after {
+  clear: both;
   content: " ";
   display: block;
-  clear: both;
 }
+
+/* Add some vertical rhythm (space between each row) by default */
+.row + .row {
+  margin-top: 1em;
+}
+
+
+
+/*
+ * ----------------------
+ * COLUMN
+ * ----------------------
+ */
 
 /*
  * Use float to line up our grid elements next to each other.
- * By default (i.e. mobile devices), make all columns 100% wide with some padding and margin.
+ * By default (i.e. mobile devices), make all columns 100% wide with some padding.
  */
 .column {
   float: left;
   padding: 1em;
-  margin-bottom: 1em;
   width: 100%;
 }
+
+/* Add some vertical rhythm (space between each column) by default, only on mobile. */
+.column + .column {
+  margin-top: 1em;
+}
+@media (min-width: 769px) {
+  .column + .column {
+    margin-top: 0;
+  }
+}
+
+
 
 /*
  * ----------------------
@@ -90,9 +117,21 @@ html {
   .column.one-fourth    { width: 25%; }
   .column.one-sixth     { width: 16.666%; }
 
-  /*
-   * Offset a grid element, by (virutally) creating an empty one.
-   */
+}
+
+
+
+/*
+ * ----------------------
+ * COLUMN OFFSET
+ * ----------------------
+ */
+
+/*
+ * Offset a grid element, by (virutally) creating an empty one.
+ */
+ @media (min-width: 769px) {
+
   .column.offset-three-fourths  { margin-left: 75%; }
   .column.offset-two-thirds     { margin-left: 66.666%; }
   .column.offset-one-half       { margin-left: 50%; }
@@ -100,16 +139,6 @@ html {
   .column.offset-one-fourth     { margin-left: 25%; }
   .column.offset-one-sixth      { margin-left: 16.666%; }
 
-}
-
-/*
- * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
- */
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Add your custom styles here, which will only display on landscape oriented iPads. */
-}
-@media (max-width: 320px) {
-  /* Add your custom styles here, which will only display on portrait oriented iPhone 4 / 5. */
 }
 
 
@@ -121,21 +150,27 @@ html {
  */
 
 /*
+ * flow-opposite
+ * ----------------------
  * Add .flow-opposite to columns where you want a column on the right on desktop to display first on mobile.
  */
 .column.flow-opposite { float: right; }
 
 /*
- * Enable grid without padding between each column by adding '.no-padding' to a '.container' element.
+ * no-padding
+ * ----------------------
+ * Enable a grid without padding inside columns by adding '.no-padding' to a '.container' element.
  */
 .no-padding .column {
   padding: 0;
 }
 
-
 /*
- * Enable grid without margin below each row by adding '.no-margin' to the '.container'.
+ * no-margin
+ * ----------------------
+ * Enable a grid without margin between rows (everywhere) and columns (on mobile) by adding '.no-margin' to the '.container'.
  */
+.no-margin .row,
 .no-margin .column {
-  margin-bottom: 0;
+  margin-top: 0;
 }

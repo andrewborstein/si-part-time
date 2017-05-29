@@ -147,7 +147,7 @@ a.text-primary:hover {
   border: 0;
   color: #222;
   display: inline-block;
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   padding: 15px 30px;
   text-transform: uppercase;
@@ -208,8 +208,6 @@ header a {
 }
 
 .nav-menu {
-  display: block;
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: auto;
@@ -237,7 +235,7 @@ header a {
 }
 @media (min-width: 769px) {
   .nav-menu li {
-    float: right;
+    float: left;
   }
 }
 
@@ -300,6 +298,8 @@ header a {
   color: #FFF;
 }
 
+
+
 /* GALLERY */
 
 .portfolio-box {
@@ -349,4 +349,3 @@ header a {
 .project-name {
   font-size: 22px;
 }
-
