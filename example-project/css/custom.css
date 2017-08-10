@@ -62,14 +62,8 @@ a {
 }
 
 hr {
-  border-color: #f05f40;
-  border-width: 3px;
-  margin: 30px auto;
-  max-width: 50px;
-}
-
-hr {
   border: 3px solid #f05f40;
+  height: 0;
   margin: 30px auto;
   max-width: 50px;
 }
