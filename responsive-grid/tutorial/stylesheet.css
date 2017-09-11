@@ -1076,3 +1076,11 @@ img {
 
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
+
+
+/* Github Gist Style
+   ========================================================================== */
+
+.gist-data {
+  max-height: 400px;
+}

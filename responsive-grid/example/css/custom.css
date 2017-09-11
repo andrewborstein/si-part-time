@@ -1,4 +1,10 @@
 /*
+ * ----------------------
+ * CUSTOM STYLES
+ * ----------------------
+ */
+
+ /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
  */
 @media (min-width: 769px) and (max-width: 1024px) {

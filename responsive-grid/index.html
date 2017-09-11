@@ -1,75 +1,63 @@
 <!DOCTYPE html>
-
-  <head>
-
-    <!-- The Basics: The title and description appear in your browser window/tab and in search engine results. -->
-    <title>Responsive Grid</title>
-    <meta name="description" content="How to make your own responsive grid. Adapted from Adam Kaplan's tutorial: adamkaplan.me/grid/">
-
-    <!-- Every responsive website must have this! Forces pixel-dense devices to display content correctly. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Google Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,900,700" rel="stylesheet" type="text/css">
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- My Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="tutorial/stylesheet.css">
-
-    <style>
-      body {
-        text-align: center;
-        color: white;
-      }
-      div a {
-        color: white;
-        text-decoration: none;
-        display: block;
-      }
-      body div:first-of-type {
-        border-right: 1px solid white;
-      }
-      .v-align {
-        display: table;
-        height: 100%;
-        width: 50%;
-        float: left;
-        height: 100vh
-      }
-      .v-align > * {
-        display: table-cell;
-        vertical-align: middle
-      }
-      .example:hover {
-        background-color: #3D6790;
-        cursor: pointer;
-      }
-      .example:hover a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-
-  <body>
-
-    <div class="content ">
-      <div class="v-align example">
-        <a href="tutorial">
-          <p><i class="fa fa-graduation-cap fa-2x"></i></p>
-          Tutorial
-        </a>
-
-      </div>
-      <div class="v-align example">
-        <a href="example">
-          <p><i class="fa fa-th fa-2x"></i></p>
-          Example
-        </a>
-      </div>
+<head>
+  <!-- The Basics: The title and description appear in your browser window/tab and in search engine results. -->
+  <title>Responsive Grid</title>
+  <meta name="description" content="How to make your own responsive grid. Adapted from Adam Kaplan's tutorial: adamkaplan.me/grid/">
+  <!-- Every responsive website must have this! Forces pixel-dense devices to display content correctly. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,900,700" rel="stylesheet" type="text/css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- My Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="tutorial/stylesheet.css">
+  <style>
+    body {
+      text-align: center;
+      color: white;
+    }
+    div a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+    body div:first-of-type {
+      border-right: 1px solid white;
+    }
+    .v-align {
+      display: table;
+      height: 100%;
+      width: 50%;
+      float: left;
+      height: 100vh
+    }
+    .v-align > * {
+      display: table-cell;
+      vertical-align: middle
+    }
+    .example:hover {
+      background-color: #3D6790;
+      cursor: pointer;
+    }
+    .example:hover a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="content ">
+    <div class="v-align example">
+      <a href="tutorial">
+        <p><i class="fa fa-graduation-cap fa-2x"></i></p>
+        Tutorial
+      </a>
     </div>
-
-  </body>
-
+    <div class="v-align example">
+      <a href="example">
+        <p><i class="fa fa-th fa-2x"></i></p>
+        Example
+      </a>
+    </div>
+  </div>
+</body>
 </html>

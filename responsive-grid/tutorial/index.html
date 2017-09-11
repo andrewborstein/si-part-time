@@ -4,7 +4,7 @@
   <head>
 
     <!-- Basic Page Needs -->
-    <title>Grid</title>
+    <title>Responsive Grid Tutorial</title>
     <meta name="description" content="A simple guide to responsive design.">
 
     <!-- Mobile Specific Metas -->
@@ -132,19 +132,28 @@
     <section>
       <div class="container">
         <div class="circle">4</div>
-        <h1>Normalize, Grid, &amp; Custom Styles</h1>
-        <p>Browsers will render your CSS differently by default. To avoid this, include
-        <a href="//code.google.com/archive/p/normalize-css/" target="_blank">Normalize.css</a> or Andrew's
-        <a href="//gist.github.com/andrewborstein/099e0ed6b5b5fd5a0390" target="_blank">Initialize.css</a>. Remember to
-        place it <em class="unstyled">before</em> your custom stylesheets. For this tutorial, we'll place all our
-        grid-related CSS inside a new file called <code>grid.css</code>.</p><br>
-        <p>If you want to include the custom styles used in this demo, create a new file called <code>grid-demo-styles.css</code>,
-        <a href="//github.com/andrewborstein/si-web-design/blob/gh-pages/responsive-grid/example/css/grid-demo-styles.css">
-        copy this CSS</a> into that file, and then add the class <code>'example-style'</code> to your
-        <code>index.html &rarr; &lt;body&gt;</code>.</p>
+        <h1>Initialize, Tutorial, Custom Styles, &amp; Grid</h1>
+        <p>Before we start adding new styles to our projects, we need a place to put them. Create a folder next to <code>index.html</code> called <code>css</code>. Inside <code>/css</code> add 4 new files with the following names and code:
+
         <hr>
-        <em><code>index.html &rarr; &lt;head&gt;</code></em>
-        <script src="//gist.github.com/andrewborstein/f5f56af0d88afe3c10b4.js"></script>
+        <p>Include some CSS best practices e.g. box-sizing and make sure all browsers render our CSS the same.</p>
+        <em><code>initialize.css</code></em>
+        <script src="https://gist.github.com/andrewborstein/099e0ed6b5b5fd5a0390.js"></script>
+
+        <hr>
+        <p>To make it easier to follow along, include all the custom styles used in this tutorial. Note: you will also need to add the class <code>'tutorial-style'</code> to your <code>index.html &rarr; &lt;body&gt;</code> to use these styles.</p>
+        <em><code>grid-tutorial.css</code></em>
+        <script src="https://gist.github.com/andrewborstein/cda4047d2374eb96298d36a3f6e28602.js"></script>
+
+        <hr>
+        <p>Keep all your project-specific styles in a separate file. We'll add some styles here later in the tutorial.</p>
+        <em><code>custom.css</code></em>
+        <script src="https://gist.github.com/andrewborstein/168f3a254a7715793ddbcb3c8e9f20fd.js"></script>
+
+        <hr>
+        <p>Put all the base grid styles in one file (i.e. all the code from step 5 on), so we can easily re-use the grid in other projects.</p>
+        <em><code>grid.css</code></em>
+        <script src="https://gist.github.com/andrewborstein/445ddbc745251907542e0e2d5e3f6379.js"></script>
       </div>
     </section>
 
@@ -196,7 +205,7 @@
         <p>This will keep containers the same size when you add a border or padding &mdash; it pushes content
         <em class="unstyled">inwards</em> instead of expanding the container <em class="unstyled">outwards</em>. I've
         already added this snippet in <code>initialize.css</code>, but you should add it manually in case you don't
-        include that file.</p>
+        include that file in a project.</p>
         <hr>
         <em><code>grid.css</code></em>
         <script src="//gist.github.com/andrewborstein/5af48c687358a84cab5f.js"></script>
@@ -242,12 +251,6 @@
         <script src="//gist.github.com/andrewborstein/b81a660fcf6ade155c25.js"></script>
         <em><code>index.html &rarr; &lt;body&gt;</code></em>
         <script src="//gist.github.com/andrewborstein/a66a88b25384304d680f5d9abc5fdd36.js"></script>
-        <hr>
-        <p>If you didn't add the custom styles I linked to above, and you want to make it easier to visualize what the
-        grid is doing (e.g. dashed borders, centered text, etc), add this CSS.</p>
-        <hr>
-        <em><code>custom.css</code></em>
-        <script src="//gist.github.com/andrewborstein/b155894354dcfd727e2812cad7ef5c94.js"></script>
       </div>
     </section>
 
@@ -657,12 +660,24 @@
 
     <section>
       <div class="container">
-        <h1>Practice Makes Perfect</h1>
-        <p>By following these simple steps, you are on the path to responsive web design mastery.
-        Keep practicing and help make the web a better, more useable place.</p>
+        <div class="circle">16</div>
+        <h1>Putting It All Together</h1>
+        <p>By following these simple steps, you are on the path to responsive web design mastery. Keep practicing and help make the web a better, more usable place.</p>
         <hr>
-        <p><a href="/si-web-design/responsive-grid/example" target="_blank" class="button">View the Example</a></p>
+        <p>Lastly, after adding all these pieces to your project one-by-one, this is what you should end up with.</p>
+        <em><code>index.html</code></em>
+        <script src="//gist.github.com/andrewborstein/c56f3b1ff389d02e807a7f294a982463.js"></script>
+        <em><code>initialize.css</code></em>
+        <script src="https://gist.github.com/andrewborstein/099e0ed6b5b5fd5a0390.js"></script>
+        <em><code>grid.css</code></em>
+        <script src="//gist.github.com/andrewborstein/fc6882bf7577cea4bce9.js"></script>
+        <em><code>grid-tutorial.css</code></em>
+        <script src="https://gist.github.com/andrewborstein/cda4047d2374eb96298d36a3f6e28602.js"></script>
+        <em><code>custom.css</code></em>
+        <script src="https://gist.github.com/andrewborstein/7ec19c33dc0adf578a79c4182d08ea48.js"></script>
       </div>
+
+      <p><a href="/responsive-grid/example" target="_blank" class="button">View the Example</a></p>
     </section>
 
     <section class="resources">

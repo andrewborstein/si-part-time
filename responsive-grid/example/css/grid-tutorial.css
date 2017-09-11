@@ -1,10 +1,10 @@
 /*
  * ----------------------
- * GRID - DEMO STYLES
+ * GRID - TUTORIAL STYLES
  * ----------------------
  */
 
-.example-style {
+.tutorial-style {
   background-color: #497bad;
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.example-style:before {
+.tutorial-style:before {
   background: rgba(225, 255, 255, 0.1);
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   display: block;
@@ -21,31 +21,31 @@
   text-align: center;
 }
 
-.example-style section {
+.tutorial-style section {
   border-top: none;
   overflow: auto;
 }
 
-.example-style section + section {
+.tutorial-style section + section {
   margin-top: 6em;
 }
 
 @media (min-width: 1025px) {
-  .example-style .container {
+  .tutorial-style .container {
     border: 2px dashed rgba(255, 255, 255, 0.5);
   }
 }
 
-.example-style .column {
+.tutorial-style .column {
   background: rgba(225, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-.example-style .no-padding .column {
+.tutorial-style .no-padding .column {
   padding: 0;
 }
 
-.example-style h1 {
+.tutorial-style h1 {
   background: white;
   color: #497bad;
   font-size: 16px;
@@ -55,7 +55,7 @@
   text-transform: uppercase;
 }
 
-.example-style h2 {
+.tutorial-style h2 {
   color: white;
   font-size: 3em;
   font-weight: 100;
@@ -64,7 +64,7 @@
   text-transform: uppercase;
 }
 
-.example-style .button a {
+.tutorial-style .button a {
   background: white;
   color: #333;
   display: block;
@@ -76,17 +76,17 @@
 }
 
 @media (min-width: 1025px) {
-  .example-style .button a {
+  .tutorial-style .button a {
     display: inline-block;
   }
 }
 
-.example-style .button a:first-of-type {
+.tutorial-style .button a:first-of-type {
   background: transparent;
   border: 1px solid white;
   color: white;
 }
 
-.example-style .button a:hover {
+.tutorial-style .button a:hover {
   opacity: 0.7
 }

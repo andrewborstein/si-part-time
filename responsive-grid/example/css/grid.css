@@ -1,5 +1,13 @@
 /*
  * ----------------------
+ * RESPONSIVE GRID
+ * ----------------------
+ */
+
+
+
+ /*
+ * ----------------------
  * BOX SIZING
  * ----------------------
  */
@@ -36,7 +44,7 @@ html {
 }
 
 /* ...or use the .container-fluid class instead, to make the content always stretch to be full-width. */
-.container.fluid {
+.container-fluid {
   max-width: none;
 }
 
