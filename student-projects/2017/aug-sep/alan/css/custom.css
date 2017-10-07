@@ -1,6 +1,6 @@
 /* Global */
 body {
--family: 'Helvetica Neue', sans-serifs;
+font-family: 'Helvetica Neue', sans-serifs;
 }
 a {
 text-decoration: none;
@@ -174,7 +174,6 @@ height: 100px;
 position: absolute;
 top: 2500;
 left: 0;
-p {color: yellow;}
 }
 .style-j7p3mwgilabel {
 position: relative;
@@ -194,5 +193,13 @@ position: relative;
 }
 .landing-section {
 height: 100vh;
-text-alighn:center;
+text-align:center;
+}
+.iphoneoverlay {
+position: absolute;
+height: calc(100% - 126px);
+width: calc(100% - 42px);
+background: white;
+top: 63px;
+left: 25px;
 }
