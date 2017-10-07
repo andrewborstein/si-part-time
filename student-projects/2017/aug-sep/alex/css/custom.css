@@ -1,0 +1,201 @@
+/* Global */
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color:  #111;
+  display: inline-block;
+  text-decoration: none;
+}
+/* Header */
+
+.header {
+  background-color: #FFF;/* #FFFFE0*/;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.site-title {
+  color:  #111;
+  font-weight: 800;
+  float: left;
+  letter-spacing: 5px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.nav-menu-list {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+}
+
+.nav-menu-list-item {
+  float: left;
+}
+
+.nav-menu-link {
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+
+/* Landing Section */
+
+.landing-section {
+  background-image: url(http://www.designlovefest.com/wp-content/uploads/downloads/2015/11/Dani-Schafer-detail-d2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #F8F8FF;
+  font-size: 20px;
+}
+.landing-section-overlay {
+  height: 100%;
+  background-color: rgba(38, 87, 102, 0.3);
+}
+.heading-content {
+  margin:0;
+}
+.paragraph-content {
+  margin:0;
+}
+hr {
+    border: 3px solid #FDF5E6;
+    height: 4px;
+    margin: 10px auto;
+    max-width: 70px;
+}
+
+.landing-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.paragraph-content{
+  letter-spacing: 4px;
+  margin-top: 0px;
+}
+
+.btn.primary {
+    background-color: #FFF;
+    color: #111;
+}
+.btn{
+  border-radius: 200px;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  transition: all 0.4s;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+/* About Section */
+
+.about-section{
+  background-color: #FDF5E6;
+  font-size: 10px;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-heading{
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  font-size:40px;
+  margin:0;
+  padding-top:10px;
+  letter-spacing: 2px;
+}
+
+/* Portfolio Section */
+.portfolio-section{
+background-color: #FFF;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #DCDCDC;
+  font-size: 20px;
+}
+
+.portfolio-heading{
+  margin-bottom: 0px;
+}
+/* Resume Section */
+
+.resume-section{
+  font-size: 10px;
+  background-image: url(../img/resume.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* CONTACT SECTION */
+.contact-content{
+  background-image: url(https://i.pinimg.com/originals/c8/c8/aa/c8c8aaa218e5904c0e392363823cf4df.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  font-size: 20px;
+}
+
+.contact-heading {
+  margin-top:0px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+.contact-paragraph {
+  font-size:14px;
+}
+
+.envelope-primary {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+
+
+
+
+
+/*.img {
+  opacity: .5;
+}*/
+
+
+Add Comment

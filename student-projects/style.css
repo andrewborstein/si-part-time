@@ -89,21 +89,15 @@ hr.divider {
   display: block;
   position: relative;
   max-width: none;
-  width: calc(100% + 20px);
+  width: 100%;
   -webkit-transition: all 0.4s, -webkit-transform 0.4s;
   transition: all 0.4s, transform 0.4s;
-  -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   -webkit-filter: blur(0);
 }
 
 .hovereffect:hover img {
   opacity: 0.4;
   filter: alpha(opacity=40);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
   -webkit-filter: blur(3px);
 }
 

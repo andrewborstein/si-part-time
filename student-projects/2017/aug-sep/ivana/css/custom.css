@@ -6,15 +6,13 @@
   display: block;
 }
 
-
-
 /* GLOBAL */
-
 body {
-  background: #EEE;
+  background: #e6ffff;
   color: #444;
-  font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 14px;
+  color: #444;
 }
 
 h1,
@@ -23,6 +21,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -58,11 +57,16 @@ h3 {
 
 a {
   text-decoration: none;
-  transition: all 0.3s;
+  color: #A0522D;
+  transition: 0.3s ease all;
+}
+
+a:hover {
+  color: #A0522D;
 }
 
 hr {
-  border: 3px solid #f05f40;
+  border: 3px solid #A0522D;
   height: 0;
   margin: 30px auto;
   max-width: 50px;
@@ -73,7 +77,6 @@ hr.light {
 }
 
 p {
-  font-family: 'Merriweather', Georgia, serif;
   line-height: 1.5;
 }
 
@@ -89,20 +92,19 @@ section {
 }
 
 blockquote {
-  border-left: 5px solid #eee;
+  border-left: 5px solid #e6ffff;
   font-size: 17.5px;
   margin: 0 0 20px;
   padding: 10px 20px;
 }
 
 /* HELPERS */
-
 .text-primary {
-  color: #f05f40;
+  color: #A0522D;
 }
 
 a.text-primary:hover {
-  color: #ee4b28;
+  color: #cc9900;
 }
 
 .text-light {
@@ -122,11 +124,11 @@ a.text-primary:hover {
 }
 
 .bg-primary {
-  background-color: #f05f40;
+  background-color: #A0522D;
 }
 
 .bg-dark {
-  background-color: #222;
+  background-color: #A0522D;
   color: #FFF;
 }
 
@@ -141,19 +143,19 @@ a.text-primary:hover {
 }
 
 .no-padding {
-  padding: 0;
+  padding: 0
 }
 
 
 /* BUTTONs */
-
 .btn {
   background-color: #FFF;
   border-radius: 300px;
   border: 0;
-  color: #222;
+  color: #A0522D;
   cursor: pointer;
   display: inline-block;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   padding: 15px 30px;
   text-transform: uppercase;
@@ -161,15 +163,15 @@ a.text-primary:hover {
   white-space: nowrap;
 }
 .btn:hover {
-  background-color: #eee;
+  background-color: #e6ffff;
 }
 
 .btn.primary {
-  background-color: #f05f40;
+  background-color: #A0522D;
   color: #FFF;
 }
 .btn.primary:hover {
-  background-color: #ee4b28;
+  background-color: #cc9900;
 }
 
 
@@ -177,14 +179,13 @@ a.text-primary:hover {
 /* HEADER */
 
 .header {
-  background: #FFF;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  left: 0;
-  position: fixed;
+  background: #e6ffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  overflow: auto;
+  padding: 0 10px;
   text-transform: uppercase;
-  top: 0;
   width: 100%;
-  z-index: 1;
 }
 @media (min-width: 769px) {
   .header {
@@ -198,12 +199,14 @@ a.text-primary:hover {
 }
 
 .site-name {
-  color: #444;
-  display: block;
+  color: #A0522D;
   letter-spacing: 5px;
   padding-bottom: 0;
   text-align: center;
+  float: left;
+  padding-bottom: 20px;
 }
+
 @media (min-width: 769px) {
   .site-name {
     float: left;
@@ -212,7 +215,7 @@ a.text-primary:hover {
 }
 
 .site-name:hover {
-  color: #F05F40;
+  color: #cc9900;
 }
 
 .nav-menu {
@@ -227,18 +230,19 @@ a.text-primary:hover {
 }
 
 .nav-menu-link {
-  color: #F05F40;
+  color: #A0522D;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
 
 .nav-menu-link:hover {
-  background-color: #F05F40;
-  color: #FFF;
+   background-color: #A0522D;
+  color: #e6ffff;
 }
 
 .nav-menu-item {
   display: inline-block;
+  float: left;
 }
 @media (min-width: 769px) {
   .nav-menu-item {
@@ -277,7 +281,7 @@ a.text-primary:hover {
 }
 
 .landing-container-title {
-  color: white;
+  color: #red;
   font-weight: 700;
   margin-bottom: 0;
   margin-top: 0;
@@ -285,7 +289,7 @@ a.text-primary:hover {
 }
 
 .landing-container-subtitle {
-  color: rgba(255,255,255,.7);
+  color: #e6ffff;
   font-size: 16px;
   margin: 0 auto 50px;
   max-width: 90%;
@@ -319,7 +323,7 @@ a.text-primary:hover {
 }
 
 .portfolio-box-caption {
-  background: rgba(240,95,64,.9);
+  background: #cc9900;
   bottom: 0;
   color: #fff;
   display: block;
@@ -344,6 +348,7 @@ a.text-primary:hover {
 }
 .project-category ,
 .project-name {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   padding: 0 15px;
 }
 

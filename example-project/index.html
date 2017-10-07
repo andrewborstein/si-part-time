@@ -9,33 +9,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Google Fonts -->
-  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700" rel="stylesheet" >
+  <link href="//fonts.googleapis.com/css?family=Merriweather:400" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Viewport Animation CSS -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" type="text/css">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
 
   <!-- Initialize CSS: Normalize + Best Practices -->
-  <link rel="stylesheet" type="text/css" href="css/initialize.css">
+  <link href="css/initialize.css" rel="stylesheet">
 
   <!-- Grid CSS-->
-  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link href="css/grid.css" rel="stylesheet">
 
   <!-- My Custom CSS-->
-  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
   <header data-scroll-header class="header clearfix">
     <a href="#" class="site-name header-link">Andrew Borstein</a>
-    <ul class="nav-menu">
-      <li class="nav-menu-item"><a href="#about" class="header-link nav-menu-link" data-scroll>About</a></li>
-      <li class="nav-menu-item"><a href="#skills" class="header-link nav-menu-link" data-scroll>Skills</a></li>
-      <li class="nav-menu-item"><a href="#gallery" class="header-link nav-menu-link" data-scroll>Gallery</a></li>
-      <li class="nav-menu-item"><a href="#contact" class="header-link nav-menu-link" data-scroll>Contact</a></li>
+    <nav class="nav clearfix">
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="#about" class="header-link nav-menu-link" data-scroll>About</a></li>
+        <li class="nav-menu-item"><a href="#skills" class="header-link nav-menu-link" data-scroll>Skills</a></li>
+        <li class="nav-menu-item"><a href="#gallery" class="header-link nav-menu-link" data-scroll>Gallery</a></li>
+        <li class="nav-menu-item"><a href="#contact" class="header-link nav-menu-link" data-scroll>Contact</a></li>
+      </ul>
     </ul>
   </header>
 
@@ -45,7 +47,7 @@
       <div class="landing-content-inner">
         <h1 class="landing-container-title">Definitely an All Caps Kinda Guy</h1>
         <hr>
-        <p class="landing-container-subtitle">Enjoying long walks off short piers since 1983. This is where you can put some more quippy text. Or actually helpful text works, too. But it's less fun.</p>
+        <p class="landing-container-subtitle">Enjoying long walks off short piers since 1983. This is where you can put some more quippy text. Or actually helpful text works, too. But it"s less fun.</p>
         <a href="#about" class="btn primary" data-scroll>Learn More</a>
       </div>
     </div>
@@ -53,41 +55,40 @@
 
   <section id="about" class="text-light bg-primary">
     <div class="container">
-      <div class="row no-margin">
-        <div class="column two-thirds offset-one-sixth text-center">
+      <div class="row container-no-margin">
+        <div class="column column-two-thirds column-offset-one-sixth text-center">
           <h2 class="section-heading">Ut enim ad minima veniam!</h2>
           <hr class="light">
         </div>
       </div>
-      <div class="row no-margin">
-        <div class="column one-half">
+      <div class="row container-no-margin">
+        <div class="column column-one-half">
           <h3>voluptas sit aspernatur</h3>
           <p class="text-faded">Omnis iste natus error sit voluptatem accusantium doloremque laudantium, rem totam rem aperiam, eaque ipsa quae ab illo inventore. Veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, sit voluptatem accusantium doloremque laudantium.</p>
         </div>
-        <div class="column one-half">
+        <div class="column column-one-half">
         <h3>eos qui ratione</h3>
           <p class="text-faded"> Omnis iste natus error sit voluptatem accusantium doloremque laudantium, rem totam rem aperiam, eaque ipsa quae ab illo inventore. Veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, sit voluptatem accusantium doloremque laudantium.</p>
         </div>
       </div>
-      <div class="row no-margin">
-        <div class="column two-thirds offset-one-sixth">
+      <div class="row container-no-margin">
+        <div class="column column-two-thirds column-offset-one-sixth">
           <blockquote>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</blockquote>
         </div>
       </div>
-      <div class="row no-margin">
-        <div class="column one-third">
-            <p class="text-faded">Fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, sit voluptatem accusantium doloremque laudantium.</p>
-          </div>
-          <div class="column one-third">
-            <p class="text-faded">Vveritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-          </div>
-          <div class="column one-third">
-            <p class="text-faded">Omnis iste natus error sit voluptatem accusantium doloremque laudantium, rem totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
-          </div>
+      <div class="row container-no-margin">
+        <div class="column column-one-third">
+          <p class="text-faded">Fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, sit voluptatem accusantium doloremque laudantium.</p>
+        </div>
+        <div class="column column-one-third">
+          <p class="text-faded">Vveritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+        </div>
+        <div class="column column-one-third">
+          <p class="text-faded">Omnis iste natus error sit voluptatem accusantium doloremque laudantium, rem totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
         </div>
       </div>
-      <div class="row no-margin">
-        <div class="column full-width text-center">
+      <div class="row container-no-margin">
+        <div class="column column-full-width text-center">
           <a href="#gallery" class="btn" data-scroll>Check Out Some Photoz</a>
         </div>
       </div>
@@ -96,37 +97,37 @@
 
   <section id="skills">
     <div class="container">
-      <div class="row no-margin no-padding">
-        <div class="column full-width text-center">
+      <div class="row">
+        <div class="column column-full-width text-center">
           <h2 class="section-heading">I Can Totally Do Stuff</h2>
           <hr class="primary">
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="row no-margin no-padding">
-        <div class="column one-fourth text-center">
+      <div class="row">
+        <div class="column column-one-fourth text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-bicycle wow bounceIn text-primary"></i>
             <h3>Bike Rider</h3>
             <p class="text-muted">I like to try and find a way to say "Weeeee" everyday.</p>
           </div>
         </div>
-        <div class="column one-fourth text-center">
+        <div class="column column-one-fourth text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
             <h3>Great Emailer</h3>
             <p class="text-muted">No one takes longer to write a single email than I do.</p>
           </div>
         </div>
-        <div class="column one-fourth text-center">
+        <div class="column column-one-fourth text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
             <h3>Not Illiterate</h3>
             <p class="text-muted">I would say this is my most impressive skill.</p>
           </div>
         </div>
-        <div class="column one-fourth text-center">
+        <div class="column column-one-fourth text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-code wow bounceIn text-primary" data-wow-delay=".3s"></i>
             <h3>Can Code</h3>
@@ -138,9 +139,9 @@
   </section>
 
   <section id="gallery" class="no-padding">
-    <div class="container-fluid">
-      <div class="row no-padding no-margin">
-        <div class="column one-third">
+    <div class="container container-fluid container-no-margin container-no-padding no-padding">
+      <div class="row">
+        <div class="column column-one-third">
           <a href="#" class="portfolio-box">
             <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -155,7 +156,7 @@
             </div>
           </a>
         </div>
-        <div class="column one-third">
+        <div class="column column-one-third">
           <a href="#" class="portfolio-box">
             <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -170,7 +171,7 @@
             </div>
           </a>
         </div>
-        <div class="column one-third">
+        <div class="column column-one-third">
           <a href="#" class="portfolio-box">
             <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -185,7 +186,9 @@
             </div>
           </a>
         </div>
-        <div class="column one-third">
+      </div>
+      <div class="row">
+        <div class="column column-one-third">
           <a href="#" class="portfolio-box">
             <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -200,7 +203,7 @@
             </div>
           </a>
         </div>
-        <div class="column one-third">
+        <div class="column column-one-third">
           <a href="#" class="portfolio-box">
             <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -215,7 +218,7 @@
             </div>
           </a>
         </div>
-        <div class="column one-third">
+        <div class="column column-one-third">
           <a href="#" class="portfolio-box">
             <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -244,14 +247,14 @@
   </aside>
 
   <section id="contact">
-    <div class="container">
-      <div class="row no-margin no-padding">
-        <div class="column two-thirds offset-one-sixth text-center">
-          <h2 class="section-heading">Let's Be In Touch</h2>
+    <div class="container container-no-margin container-no-padding">
+      <div class="row">
+        <div class="column column-two-thirds column-offset-one-sixth text-center">
+          <h2 class="section-heading">Let"s Be In Touch</h2>
           <hr class="primary">
           <p>Ready to start your next project with me? Awesome sauce. Shoot over an email and I'll get back to you as soon as possible!</p>
         </div>
-        <div class="column full-width text-center">
+        <div class="column column-full-width text-center">
           <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
           <p><a href="mailto:your-email@your-domain.com" class="text-primary">person@email.com</a></p>
         </div>

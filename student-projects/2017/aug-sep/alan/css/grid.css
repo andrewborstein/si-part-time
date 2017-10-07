@@ -6,7 +6,7 @@
 
 
 
- /*
+/*
  * ----------------------
  * BOX SIZING
  * ----------------------
@@ -118,12 +118,12 @@ html {
  */
 @media (min-width: 769px) {
 
-  .column-three-fourths { width: 75%; }
-  .column-two-thirds    { width: 66.666%; }
-  .column-one-half      { width: 50%; }
-  .column-one-third     { width: 33.333%; }
-  .column-one-fourth    { width: 25%; }
-  .column-one-sixth     { width: 16.666%; }
+  .column.three-fourths { width: 75%; }
+  .column.two-thirds    { width: 66.666%; }
+  .column.one-half      { width: 50%; }
+  .column.one-third     { width: 33.333%; }
+  .column.one-fourth    { width: 25%; }
+  .column.one-sixth     { width: 16.666%; }
 
 }
 
@@ -140,12 +140,12 @@ html {
  */
  @media (min-width: 769px) {
 
-  .column-offset-three-fourths  { margin-left: 75%; }
-  .column-offset-two-thirds     { margin-left: 66.666%; }
-  .column-offset-one-half       { margin-left: 50%; }
-  .column-offset-one-third      { margin-left: 33.333%; }
-  .column-offset-one-fourth     { margin-left: 25%; }
-  .column-offset-one-sixth      { margin-left: 16.666%; }
+  .column.offset-three-fourths  { margin-left: 75%; }
+  .column.offset-two-thirds     { margin-left: 66.666%; }
+  .column.offset-one-half       { margin-left: 50%; }
+  .column.offset-one-third      { margin-left: 33.333%; }
+  .column.offset-one-fourth     { margin-left: 25%; }
+  .column.offset-one-sixth      { margin-left: 16.666%; }
 
 }
 
@@ -160,27 +160,26 @@ html {
 /*
  * flow-opposite
  * ----------------------
- * Add .column-flow-opposite where you want a column on the right on desktop to display first on mobile.
+ * Add .flow-opposite to columns where you want a column on the right on desktop to display first on mobile.
  */
-.column-flow-opposite {
-  float: right;
-}
+.column.flow-opposite { float: right; }
 
 /*
  * no-padding
  * ----------------------
- * Enable a grid without padding inside its columns by adding '.container-no-padding' to a '.container' element.
+ * Enable a grid without padding inside columns by adding '.no-padding' to a '.container' element.
  */
-.container-no-padding .column {
+.no-padding .column {
   padding: 0;
 }
 
 /*
  * no-margin
  * ----------------------
- * Enable a grid without margin between its rows and columns by adding '.container-no-margin' to the '.container'.
+ * Enable a grid without margin between rows (everywhere) and columns (on mobile) by adding '.no-margin' to the '.container'.
  */
-.container-no-margin .column,
-.container-no-margin .row {
+.no-margin .row,
+.no-margin .column {
   margin-top: 0;
 }
+

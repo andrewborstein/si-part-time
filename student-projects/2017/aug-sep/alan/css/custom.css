@@ -1,0 +1,198 @@
+/* Global */
+body {
+-family: 'Helvetica Neue', sans-serifs;
+}
+a {
+text-decoration: none;
+display: inline-block;
+}
+a:hover {
+background-color: blue;
+padding-top:15px;
+padding-bottom:13px;
+}
+/* Header */
+.header {
+overflow: auto;
+background-color: lightgrey;
+font-size:25px;
+margin-left:15;
+margin-right:-30;
+/* float: left; */
+}
+.moveimage {
+position: relative;
+bottom:3px;
+}
+.site-title {
+/* covered by global a */
+float: left;
+text-transform:uppercase;
+padding: 20px;
+letter-spacing: 5px;
+color: Blue
+}
+.nav-menu {
+float: right;
+}
+.nav-menu-list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow:auto;
+}
+.nav-menu-list-item{
+float:left;
+font-size: 19px;
+}
+.nav-menu-link{
+text-transform:uppercase;
+padding:10px;
+color: blue;
+margin-top: 16px;
+font-size:24px;
+}
+.image {
+width: 100%;
+}
+h1 {
+position: absolute;
+top: 93px;
+width: 100%;
+font-size: 115px;
+text-align: center;
+letter-spacing: 10px;
+margin-bottom: 3px;
+color: #b9f6ca;
+text-shadow: -5px 3px 10px #9ecaed;
+font-family: Comic Sans MS;
+}
+h2 {
+position: absolute;
+top: 72px;
+width: 100%;
+font-size: 60px;
+text-align: center;
+letter-spacing: 7px;
+padding-top: 320px;
+color: #b9f6ca;
+text-shadow: -4px 2px 10px #9ecaed;
+background-color: rgba(255, 255, 255, 0.3);
+background-size: 2000px 2000px;
+background position:top right;
+}
+.button1 {
+position: absolute;
+top: 680px;
+padding-top: 400px;
+background-color: #535553;
+color: #00fa9a;/* Spring Green */
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+float:right;
+margin-left:400px;
+border-style:solid;
+border-color:white;
+border: 2px solid #dadada;
+border-radius: 10px;
+outline: none;
+border-color: #9ecaed;
+box-shadow: 0 0 10px #9ecaed;
+}
+
+.button2 {
+position: absolute;
+top: 680px;
+padding-top: 400px;
+background-color: #535553;
+color:#00fa9a;/* Spring Green */
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+float:right;
+margin-left:800px;
+border-style:solid;
+border-color: white
+border: 2px solid #dadada;
+border-radius: 10px;
+outline: none;
+border-color: #9ecaed;
+box-shadow: 0 0 10px #9ecaed;
+}
+#mediair8ehrsh1inlineContent{
+margin-top:1150px;
+margin-right: 50px;
+}
+.strc1inlineContent{
+margin-top:1150px;
+margin-right: 50px;
+}
+.font_5{
+margin-bottom:1px;
+}
+.font_6{
+position: absolute;
+top:70;
+}
+.font_7{
+margin-top:570px;
+}
+.doorbellboost{
+position: relative;
+bottom: 25;
+}
+.curatedbuildingevents{
+position: relative;
+bottom: 580;
+}
+.exclusiveLocalPerks{
+position: relative;
+bottom: 580;
+}
+.doorbellcommunityapp{
+position: relative;
+bottom: 580;
+}
+.predictiveanalytics{
+position: relative;
+bottom: 580;
+}
+
+#more_infooo{
+background-color: darkblue;
+}
+
+#footer {
+background: #00004d;
+width: 100%;
+height: 100px;
+position: absolute;
+top: 2500;
+left: 0;
+p {color: yellow;}
+}
+.style-j7p3mwgilabel {
+position: relative;
+bottom: 100;
+}
+/* Landing Section */
+#footer {
+color: white;
+position: absolute;
+margin-left:30;
+}
+#footer1 {
+color: white;
+top:1375;
+left:305;
+position: relative;
+}
+.landing-section {
+height: 100vh;
+text-alighn:center;
+}
