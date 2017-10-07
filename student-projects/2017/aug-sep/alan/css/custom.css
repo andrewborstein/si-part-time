@@ -16,8 +16,6 @@ padding-bottom:13px;
 overflow: auto;
 background-color: lightgrey;
 font-size:25px;
-margin-left:15;
-margin-right:-30;
 /* float: left; */
 }
 .moveimage {
@@ -166,7 +164,6 @@ bottom: 580;
 #more_infooo{
 background-color: darkblue;
 }
-
 #footer {
 background: #00004d;
 width: 100%;
@@ -174,27 +171,10 @@ height: 100px;
 position: absolute;
 top: 2500;
 left: 0;
-}
-.style-j7p3mwgilabel {
-position: relative;
-bottom: 100;
-}
-/* Landing Section */
-#footer {
 color: white;
-position: absolute;
-margin-left:30;
 }
-#footer1 {
-color: white;
-top:1375;
-left:305;
-position: relative;
-}
-.landing-section {
-height: 100vh;
-text-align:center;
-}
+
+
 .iphoneoverlay {
 position: absolute;
 height: calc(100% - 126px);
